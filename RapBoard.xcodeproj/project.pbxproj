@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7CAEDC81C72761D00DAAFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CAEDC71C72761D00DAAFC0 /* AppDelegate.swift */; };
+		A7CAEDCA1C72761D00DAAFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CAEDC91C72761D00DAAFC0 /* ViewController.swift */; };
+		A7CAEDCD1C72761D00DAAFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CAEDCB1C72761D00DAAFC0 /* Main.storyboard */; };
+		A7CAEDD01C72761D00DAAFC0 /* RapBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7CAEDCE1C72761D00DAAFC0 /* RapBoard.xcdatamodeld */; };
+		A7CAEDD21C72761D00DAAFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CAEDD11C72761D00DAAFC0 /* Assets.xcassets */; };
+		A7CAEDD51C72761D00DAAFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CAEDD31C72761D00DAAFC0 /* LaunchScreen.storyboard */; };
+		A7CAEDE01C72761D00DAAFC0 /* RapBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CAEDDF1C72761D00DAAFC0 /* RapBoardTests.swift */; };
+		A7CAEDEB1C72761E00DAAFC0 /* RapBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CAEDEA1C72761E00DAAFC0 /* RapBoardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7CAEDDC1C72761D00DAAFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CAEDBC1C72761D00DAAFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CAEDC31C72761D00DAAFC0;
+			remoteInfo = RapBoard;
+		};
+		A7CAEDE71C72761E00DAAFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CAEDBC1C72761D00DAAFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CAEDC31C72761D00DAAFC0;
+			remoteInfo = RapBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7CAEDC41C72761D00DAAFC0 /* RapBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RapBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CAEDC71C72761D00DAAFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7CAEDC91C72761D00DAAFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7CAEDCC1C72761D00DAAFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7CAEDCF1C72761D00DAAFC0 /* RapBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RapBoard.xcdatamodel; sourceTree = "<group>"; };
+		A7CAEDD11C72761D00DAAFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7CAEDD41C72761D00DAAFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7CAEDD61C72761D00DAAFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CAEDDB1C72761D00DAAFC0 /* RapBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CAEDDF1C72761D00DAAFC0 /* RapBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapBoardTests.swift; sourceTree = "<group>"; };
+		A7CAEDE11C72761D00DAAFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CAEDE61C72761E00DAAFC0 /* RapBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CAEDEA1C72761E00DAAFC0 /* RapBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapBoardUITests.swift; sourceTree = "<group>"; };
+		A7CAEDEC1C72761E00DAAFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7CAEDC11C72761D00DAAFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CAEDD81C72761D00DAAFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CAEDE31C72761E00DAAFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7CAEDBB1C72761D00DAAFC0 = {
+			isa = PBXGroup;
+			children = (
+				A7CAEDC61C72761D00DAAFC0 /* RapBoard */,
+				A7CAEDDE1C72761D00DAAFC0 /* RapBoardTests */,
+				A7CAEDE91C72761E00DAAFC0 /* RapBoardUITests */,
+				A7CAEDC51C72761D00DAAFC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7CAEDC51C72761D00DAAFC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7CAEDC41C72761D00DAAFC0 /* RapBoard.app */,
+				A7CAEDDB1C72761D00DAAFC0 /* RapBoardTests.xctest */,
+				A7CAEDE61C72761E00DAAFC0 /* RapBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7CAEDC61C72761D00DAAFC0 /* RapBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A7CAEDC71C72761D00DAAFC0 /* AppDelegate.swift */,
+				A7CAEDC91C72761D00DAAFC0 /* ViewController.swift */,
+				A7CAEDCB1C72761D00DAAFC0 /* Main.storyboard */,
+				A7CAEDD11C72761D00DAAFC0 /* Assets.xcassets */,
+				A7CAEDD31C72761D00DAAFC0 /* LaunchScreen.storyboard */,
+				A7CAEDD61C72761D00DAAFC0 /* Info.plist */,
+				A7CAEDCE1C72761D00DAAFC0 /* RapBoard.xcdatamodeld */,
+			);
+			path = RapBoard;
+			sourceTree = "<group>";
+		};
+		A7CAEDDE1C72761D00DAAFC0 /* RapBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7CAEDDF1C72761D00DAAFC0 /* RapBoardTests.swift */,
+				A7CAEDE11C72761D00DAAFC0 /* Info.plist */,
+			);
+			path = RapBoardTests;
+			sourceTree = "<group>";
+		};
+		A7CAEDE91C72761E00DAAFC0 /* RapBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7CAEDEA1C72761E00DAAFC0 /* RapBoardUITests.swift */,
+				A7CAEDEC1C72761E00DAAFC0 /* Info.plist */,
+			);
+			path = RapBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7CAEDC31C72761D00DAAFC0 /* RapBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CAEDEF1C72761E00DAAFC0 /* Build configuration list for PBXNativeTarget "RapBoard" */;
+			buildPhases = (
+				A7CAEDC01C72761D00DAAFC0 /* Sources */,
+				A7CAEDC11C72761D00DAAFC0 /* Frameworks */,
+				A7CAEDC21C72761D00DAAFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RapBoard;
+			productName = RapBoard;
+			productReference = A7CAEDC41C72761D00DAAFC0 /* RapBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7CAEDDA1C72761D00DAAFC0 /* RapBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CAEDF21C72761E00DAAFC0 /* Build configuration list for PBXNativeTarget "RapBoardTests" */;
+			buildPhases = (
+				A7CAEDD71C72761D00DAAFC0 /* Sources */,
+				A7CAEDD81C72761D00DAAFC0 /* Frameworks */,
+				A7CAEDD91C72761D00DAAFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CAEDDD1C72761D00DAAFC0 /* PBXTargetDependency */,
+			);
+			name = RapBoardTests;
+			productName = RapBoardTests;
+			productReference = A7CAEDDB1C72761D00DAAFC0 /* RapBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7CAEDE51C72761E00DAAFC0 /* RapBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CAEDF51C72761E00DAAFC0 /* Build configuration list for PBXNativeTarget "RapBoardUITests" */;
+			buildPhases = (
+				A7CAEDE21C72761E00DAAFC0 /* Sources */,
+				A7CAEDE31C72761E00DAAFC0 /* Frameworks */,
+				A7CAEDE41C72761E00DAAFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CAEDE81C72761E00DAAFC0 /* PBXTargetDependency */,
+			);
+			name = RapBoardUITests;
+			productName = RapBoardUITests;
+			productReference = A7CAEDE61C72761E00DAAFC0 /* RapBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7CAEDBC1C72761D00DAAFC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Arnold Sandoval";
+				TargetAttributes = {
+					A7CAEDC31C72761D00DAAFC0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = XSY82Z6WUS;
+					};
+					A7CAEDDA1C72761D00DAAFC0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = XSY82Z6WUS;
+						TestTargetID = A7CAEDC31C72761D00DAAFC0;
+					};
+					A7CAEDE51C72761E00DAAFC0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = XSY82Z6WUS;
+						TestTargetID = A7CAEDC31C72761D00DAAFC0;
+					};
+				};
+			};
+			buildConfigurationList = A7CAEDBF1C72761D00DAAFC0 /* Build configuration list for PBXProject "RapBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7CAEDBB1C72761D00DAAFC0;
+			productRefGroup = A7CAEDC51C72761D00DAAFC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7CAEDC31C72761D00DAAFC0 /* RapBoard */,
+				A7CAEDDA1C72761D00DAAFC0 /* RapBoardTests */,
+				A7CAEDE51C72761E00DAAFC0 /* RapBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7CAEDC21C72761D00DAAFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CAEDD51C72761D00DAAFC0 /* LaunchScreen.storyboard in Resources */,
+				A7CAEDD21C72761D00DAAFC0 /* Assets.xcassets in Resources */,
+				A7CAEDCD1C72761D00DAAFC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CAEDD91C72761D00DAAFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CAEDE41C72761E00DAAFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7CAEDC01C72761D00DAAFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CAEDD01C72761D00DAAFC0 /* RapBoard.xcdatamodeld in Sources */,
+				A7CAEDCA1C72761D00DAAFC0 /* ViewController.swift in Sources */,
+				A7CAEDC81C72761D00DAAFC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CAEDD71C72761D00DAAFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CAEDE01C72761D00DAAFC0 /* RapBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CAEDE21C72761E00DAAFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CAEDEB1C72761E00DAAFC0 /* RapBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7CAEDDD1C72761D00DAAFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CAEDC31C72761D00DAAFC0 /* RapBoard */;
+			targetProxy = A7CAEDDC1C72761D00DAAFC0 /* PBXContainerItemProxy */;
+		};
+		A7CAEDE81C72761E00DAAFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CAEDC31C72761D00DAAFC0 /* RapBoard */;
+			targetProxy = A7CAEDE71C72761E00DAAFC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7CAEDCB1C72761D00DAAFC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CAEDCC1C72761D00DAAFC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7CAEDD31C72761D00DAAFC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CAEDD41C72761D00DAAFC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7CAEDED1C72761E00DAAFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7CAEDEE1C72761E00DAAFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7CAEDF01C72761E00DAAFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RapBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arnie.RapBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7CAEDF11C72761E00DAAFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RapBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arnie.RapBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7CAEDF31C72761E00DAAFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RapBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arnie.RapBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RapBoard.app/RapBoard";
+			};
+			name = Debug;
+		};
+		A7CAEDF41C72761E00DAAFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RapBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arnie.RapBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RapBoard.app/RapBoard";
+			};
+			name = Release;
+		};
+		A7CAEDF61C72761E00DAAFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RapBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arnie.RapBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RapBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A7CAEDF71C72761E00DAAFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RapBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arnie.RapBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RapBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7CAEDBF1C72761D00DAAFC0 /* Build configuration list for PBXProject "RapBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CAEDED1C72761E00DAAFC0 /* Debug */,
+				A7CAEDEE1C72761E00DAAFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CAEDEF1C72761E00DAAFC0 /* Build configuration list for PBXNativeTarget "RapBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CAEDF01C72761E00DAAFC0 /* Debug */,
+				A7CAEDF11C72761E00DAAFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7CAEDF21C72761E00DAAFC0 /* Build configuration list for PBXNativeTarget "RapBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CAEDF31C72761E00DAAFC0 /* Debug */,
+				A7CAEDF41C72761E00DAAFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7CAEDF51C72761E00DAAFC0 /* Build configuration list for PBXNativeTarget "RapBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CAEDF61C72761E00DAAFC0 /* Debug */,
+				A7CAEDF71C72761E00DAAFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7CAEDCE1C72761D00DAAFC0 /* RapBoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7CAEDCF1C72761D00DAAFC0 /* RapBoard.xcdatamodel */,
+			);
+			currentVersion = A7CAEDCF1C72761D00DAAFC0 /* RapBoard.xcdatamodel */;
+			path = RapBoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7CAEDBC1C72761D00DAAFC0 /* Project object */;
+}
