@@ -1,3 +1,4 @@
+
 //
 //  ViewController.swift
 //  RapBoard
@@ -7,14 +8,44 @@
 //
 
 import UIKit
+import AVFoundation
 
-class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+
+class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, AVAudioPlayerDelegate {
     
     @IBOutlet weak var menuNavButton: UIBarButtonItem!
     @IBOutlet weak var twitterNavButton: UIBarButtonItem!
     
+    
+    var audioPlayer: AVAudioPlayer = AVAudioPlayer()
+    
+    func playSound(soundURL: NSURL) {
+        
+        do { audioPlayer = try AVAudioPlayer(contentsOfURL: soundURL, fileTypeHint: nil) } catch let error as NSError {
+            print(error.description)
+        }
+        
+        audioPlayer.numberOfLoops = 0 // play once
+        audioPlayer.prepareToPlay()
+        audioPlayer.play()
+        
+        func audioPlayerDidFinishPlaying(player: AVAudioPlayer!, successfully flag: Bool) {
+            //You can stop the audio
+            NSLog("done")
+            
+        }
+        
+    }
+
+    
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return data.count
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        let screenSize: CGRect = UIScreen.mainScreen().bounds
+        let screenWidth = screenSize.width
+        return CGSize(width: screenWidth/4, height: screenWidth/2.25);
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -24,17 +55,28 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         let photo = data[indexPath.row]["photo"]! as! String
 
         cell.rapperName.text = name
-        cell.rapperImage.image = UIImage(named: "big-sean")
+        cell.rapperImage.image = UIImage(named: photo)
         
+//        cell.rapperNameTip.transform = CGAffineTransformMakeRotation(-10)
+
         return cell
     }
     
-    func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
-        print(data[indexPath.row])
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+
+        let audioFileName = String(data[indexPath.row]["audio"]![0]!)
+        
+        print(audioFileName)
+
+        let audioURL: NSURL = NSBundle.mainBundle().URLForResource(audioFileName, withExtension: "mp3")!
+        
+        playSound(audioURL)
+
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -74,7 +116,6 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     
     @IBAction func twitterButtonDidTouch(sender: AnyObject) {
         guard UIApplication.sharedApplication().canOpenURL(NSURL(string: "twitter://user?screen_name=therapboard")!) else {
-//                openURL("http://twitter.com/therapboard")
                 NSLog("No Twitter!!??  You're a better man than I am, Charlie Brown.")
                 performSegueWithIdentifier("WebSegue", sender: self)
                 return
@@ -86,8 +127,29 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
             let toView = segue.destinationViewController as! WebViewController
             let url = "http://www.twitter.com/therapboard"
             toView.url = url
+            
+            self.minimizeView()
+        }
+        
+        // There is a better way to do this. I just dont know what it is yet.
+        if segue.identifier == "MenuSegue" {
+            self.minimizeView()
+//            navigationController?.view.transform = CGAffineTransformMakeScale(0.9, 0.9);
+            
         }
     }
     
+    func minimizeView() {
+        NSLog("minimizeView")
+        SpringAnimation.spring(0.7, animations: {
+            self.view.transform = CGAffineTransformMakeScale(0.9, 0.9)
+        })
+    }
+    
+    func maximizeView(sender: AnyObject) {
+        SpringAnimation.spring(0.7, animations: {
+            self.view.transform = CGAffineTransformMakeScale(1, 1)
+        })
+    }
     
 }

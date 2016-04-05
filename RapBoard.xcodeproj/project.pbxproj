@@ -48,7 +48,224 @@
 		A7CAEE3B1C72C5CB00DAAFC0 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CAEE3A1C72C5CB00DAAFC0 /* WebViewController.swift */; };
 		A7CAEE411C72D21400DAAFC0 /* SoundboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CAEE401C72D21400DAAFC0 /* SoundboardCollectionViewCell.swift */; };
 		A7CAEE431C72D59200DAAFC0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CAEE421C72D59200DAAFC0 /* Data.swift */; };
-		A7CAEE481C72DCDA00DAAFC0 /* kanye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7CAEE471C72DCDA00DAAFC0 /* kanye.mp3 */; };
+		EAB8B9501C756FAF00417396 /* 2chainz_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8761C756FAF00417396 /* 2chainz_1.mp3 */; };
+		EAB8B9511C756FAF00417396 /* 2chainz_yeah2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8771C756FAF00417396 /* 2chainz_yeah2.mp3 */; };
+		EAB8B9521C756FAF00417396 /* 2pac_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8781C756FAF00417396 /* 2pac_4.mp3 */; };
+		EAB8B9531C756FAF00417396 /* 2pac_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8791C756FAF00417396 /* 2pac_5.mp3 */; };
+		EAB8B9541C756FAF00417396 /* 2pac_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B87A1C756FAF00417396 /* 2pac_6.mp3 */; };
+		EAB8B9551C756FAF00417396 /* 50_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B87B1C756FAF00417396 /* 50_5.mp3 */; };
+		EAB8B9561C756FAF00417396 /* 50_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B87C1C756FAF00417396 /* 50_8.mp3 */; };
+		EAB8B9571C756FAF00417396 /* 50_11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B87D1C756FAF00417396 /* 50_11.mp3 */; };
+		EAB8B9581C756FAF00417396 /* 50cent_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B87E1C756FAF00417396 /* 50cent_2.mp3 */; };
+		EAB8B9591C756FAF00417396 /* action_bronsolino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B87F1C756FAF00417396 /* action_bronsolino.mp3 */; };
+		EAB8B95A1C756FAF00417396 /* action_yeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8801C756FAF00417396 /* action_yeah.mp3 */; };
+		EAB8B95B1C756FAF00417396 /* action_yo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8811C756FAF00417396 /* action_yo.mp3 */; };
+		EAB8B95C1C756FAF00417396 /* akon_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8821C756FAF00417396 /* akon_1.mp3 */; };
+		EAB8B95D1C756FAF00417396 /* banks_unh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8831C756FAF00417396 /* banks_unh.mp3 */; };
+		EAB8B95E1C756FAF00417396 /* banks_yeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8841C756FAF00417396 /* banks_yeah.mp3 */; };
+		EAB8B95F1C756FAF00417396 /* beanie_mac.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8851C756FAF00417396 /* beanie_mac.mp3 */; };
+		EAB8B9601C756FAF00417396 /* bigboi_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8861C756FAF00417396 /* bigboi_1.mp3 */; };
+		EAB8B9611C756FAF00417396 /* biggie_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8871C756FAF00417396 /* biggie_1.mp3 */; };
+		EAB8B9621C756FAF00417396 /* biggie_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8881C756FAF00417396 /* biggie_2.mp3 */; };
+		EAB8B9631C756FAF00417396 /* bigl_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8891C756FAF00417396 /* bigl_3.mp3 */; };
+		EAB8B9641C756FAF00417396 /* bigl_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B88A1C756FAF00417396 /* bigl_4.mp3 */; };
+		EAB8B9651C756FAF00417396 /* bigl_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B88B1C756FAF00417396 /* bigl_5.mp3 */; };
+		EAB8B9661C756FAF00417396 /* bigsean_boi2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B88C1C756FAF00417396 /* bigsean_boi2.mp3 */; };
+		EAB8B9671C756FAF00417396 /* bigsean_doit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B88D1C756FAF00417396 /* bigsean_doit.mp3 */; };
+		EAB8B9681C756FAF00417396 /* bigsean_holdup2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B88E1C756FAF00417396 /* bigsean_holdup2.mp3 */; };
+		EAB8B9691C756FAF00417396 /* bigsean_ohgod.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B88F1C756FAF00417396 /* bigsean_ohgod.mp3 */; };
+		EAB8B96A1C756FAF00417396 /* bigsean_okay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8901C756FAF00417396 /* bigsean_okay.mp3 */; };
+		EAB8B96B1C756FAF00417396 /* bigsean_stop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8911C756FAF00417396 /* bigsean_stop.mp3 */; };
+		EAB8B96C1C756FAF00417396 /* bigsean_whoa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8921C756FAF00417396 /* bigsean_whoa.mp3 */; };
+		EAB8B96D1C756FAF00417396 /* bigsean_whoathere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8931C756FAF00417396 /* bigsean_whoathere.mp3 */; };
+		EAB8B96E1C756FAF00417396 /* birdman_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8941C756FAF00417396 /* birdman_1.mp3 */; };
+		EAB8B96F1C756FAF00417396 /* birdman_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8951C756FAF00417396 /* birdman_4.mp3 */; };
+		EAB8B9701C756FAF00417396 /* birdman_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8961C756FAF00417396 /* birdman_6.mp3 */; };
+		EAB8B9711C756FAF00417396 /* birdman_10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8971C756FAF00417396 /* birdman_10.mp3 */; };
+		EAB8B9721C756FAF00417396 /* birdman_16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8981C756FAF00417396 /* birdman_16.mp3 */; };
+		EAB8B9731C756FAF00417396 /* bowwow_yeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8991C756FAF00417396 /* bowwow_yeah.mp3 */; };
+		EAB8B9741C756FAF00417396 /* bunb_ugk4life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B89A1C756FAF00417396 /* bunb_ugk4life.mp3 */; };
+		EAB8B9751C756FAF00417396 /* busta_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B89B1C756FAF00417396 /* busta_1.mp3 */; };
+		EAB8B9761C756FAF00417396 /* busta_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B89C1C756FAF00417396 /* busta_2.mp3 */; };
+		EAB8B9771C756FAF00417396 /* busta_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B89D1C756FAF00417396 /* busta_5.mp3 */; };
+		EAB8B9781C756FAF00417396 /* busta_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B89E1C756FAF00417396 /* busta_6.mp3 */; };
+		EAB8B9791C756FAF00417396 /* camron_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B89F1C756FAF00417396 /* camron_1.mp3 */; };
+		EAB8B97A1C756FAF00417396 /* camron_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8A01C756FAF00417396 /* camron_2.mp3 */; };
+		EAB8B97B1C756FAF00417396 /* chingy_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8A11C756FAF00417396 /* chingy_1.mp3 */; };
+		EAB8B97C1C756FAF00417396 /* currensy_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8A21C756FAF00417396 /* currensy_1.mp3 */; };
+		EAB8B97D1C756FAF00417396 /* dabrat_comeon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8A31C756FAF00417396 /* dabrat_comeon.mp3 */; };
+		EAB8B97E1C756FAF00417396 /* dabrat_lookout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8A41C756FAF00417396 /* dabrat_lookout.mp3 */; };
+		EAB8B97F1C756FAF00417396 /* dabrat_oh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8A51C756FAF00417396 /* dabrat_oh.mp3 */; };
+		EAB8B9801C756FAF00417396 /* danny_stop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8A61C756FAF00417396 /* danny_stop.mp3 */; };
+		EAB8B9811C756FAF00417396 /* danny_yeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8A71C756FAF00417396 /* danny_yeah.mp3 */; };
+		EAB8B9821C756FAF00417396 /* dannybrown_laugh2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8A81C756FAF00417396 /* dannybrown_laugh2.mp3 */; };
+		EAB8B9831C756FAF00417396 /* davidbanner_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8A91C756FAF00417396 /* davidbanner_5.mp3 */; };
+		EAB8B9841C756FAF00417396 /* diddy_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8AA1C756FAF00417396 /* diddy_1.mp3 */; };
+		EAB8B9851C756FAF00417396 /* diddy_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8AB1C756FAF00417396 /* diddy_3.mp3 */; };
+		EAB8B9861C756FAF00417396 /* diddy_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8AC1C756FAF00417396 /* diddy_4.mp3 */; };
+		EAB8B9871C756FAF00417396 /* diddy_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8AD1C756FAF00417396 /* diddy_5.mp3 */; };
+		EAB8B9881C756FAF00417396 /* diddy_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8AE1C756FAF00417396 /* diddy_6.mp3 */; };
+		EAB8B9891C756FAF00417396 /* diddy_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8AF1C756FAF00417396 /* diddy_7.mp3 */; };
+		EAB8B98A1C756FAF00417396 /* dizzee_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8B01C756FAF00417396 /* dizzee_1.mp3 */; };
+		EAB8B98B1C756FAF00417396 /* djkhaled_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8B11C756FAF00417396 /* djkhaled_2.mp3 */; };
+		EAB8B98C1C756FAF00417396 /* djkhaled_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8B21C756FAF00417396 /* djkhaled_3.mp3 */; };
+		EAB8B98D1C756FAF00417396 /* djpaul_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8B31C756FAF00417396 /* djpaul_2.mp3 */; };
+		EAB8B98E1C756FAF00417396 /* djpaul_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8B41C756FAF00417396 /* djpaul_3.mp3 */; };
+		EAB8B98F1C756FAF00417396 /* djpaul_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8B51C756FAF00417396 /* djpaul_9.mp3 */; };
+		EAB8B9901C756FAF00417396 /* dmx_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8B61C756FAF00417396 /* dmx_1.mp3 */; };
+		EAB8B9911C756FAF00417396 /* dmx_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8B71C756FAF00417396 /* dmx_3.mp3 */; };
+		EAB8B9921C756FAF00417396 /* dmx_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8B81C756FAF00417396 /* dmx_6.mp3 */; };
+		EAB8B9931C756FAF00417396 /* dmx_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8B91C756FAF00417396 /* dmx_7.mp3 */; };
+		EAB8B9941C756FAF00417396 /* drake_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8BA1C756FAF00417396 /* drake_2.mp3 */; };
+		EAB8B9951C756FAF00417396 /* drake_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8BB1C756FAF00417396 /* drake_3.mp3 */; };
+		EAB8B9961C756FAF00417396 /* drake_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8BC1C756FAF00417396 /* drake_4.mp3 */; };
+		EAB8B9971C756FAF00417396 /* drake_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8BD1C756FAF00417396 /* drake_5.mp3 */; };
+		EAB8B9981C756FAF00417396 /* drummaboy_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8BE1C756FAF00417396 /* drummaboy_1.mp3 */; };
+		EAB8B9991C756FAF00417396 /* e40_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8BF1C756FAF00417396 /* e40_1.mp3 */; };
+		EAB8B99A1C756FAF00417396 /* e40_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8C01C756FAF00417396 /* e40_2.mp3 */; };
+		EAB8B99B1C756FAF00417396 /* eazye_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8C11C756FAF00417396 /* eazye_1.mp3 */; };
+		EAB8B99C1C756FAF00417396 /* eminem_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8C21C756FAF00417396 /* eminem_3.mp3 */; };
+		EAB8B99D1C756FAF00417396 /* eminem_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8C31C756FAF00417396 /* eminem_4.mp3 */; };
+		EAB8B99E1C756FAF00417396 /* fatjoe_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8C41C756FAF00417396 /* fatjoe_1.mp3 */; };
+		EAB8B99F1C756FAF00417396 /* fatjoe_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8C51C756FAF00417396 /* fatjoe_5.mp3 */; };
+		EAB8B9A01C756FAF00417396 /* fatjoe_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8C61C756FAF00417396 /* fatjoe_9.mp3 */; };
+		EAB8B9A11C756FAF00417396 /* flava_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8C71C756FAF00417396 /* flava_1.mp3 */; };
+		EAB8B9A21C756FAF00417396 /* freeway_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8C81C756FAF00417396 /* freeway_1.mp3 */; };
+		EAB8B9A31C756FAF00417396 /* french_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8C91C756FAF00417396 /* french_1.mp3 */; };
+		EAB8B9A41C756FAF00417396 /* ghostface_yo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8CA1C756FAF00417396 /* ghostface_yo.mp3 */; };
+		EAB8B9A51C756FAF00417396 /* grandmaster_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8CB1C756FAF00417396 /* grandmaster_1.mp3 */; };
+		EAB8B9A61C756FAF00417396 /* gucci_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8CC1C756FAF00417396 /* gucci_1.mp3 */; };
+		EAB8B9A71C756FAF00417396 /* gucci_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8CD1C756FAF00417396 /* gucci_4.mp3 */; };
+		EAB8B9A81C756FAF00417396 /* gucci_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8CE1C756FAF00417396 /* gucci_8.mp3 */; };
+		EAB8B9A91C756FAF00417396 /* gucci_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8CF1C756FAF00417396 /* gucci_9.mp3 */; };
+		EAB8B9AA1C756FAF00417396 /* gucci_14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8D01C756FAF00417396 /* gucci_14.mp3 */; };
+		EAB8B9AB1C756FAF00417396 /* hurricanechris_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8D11C756FAF00417396 /* hurricanechris_1.mp3 */; };
+		EAB8B9AC1C756FAF00417396 /* icecube_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8D21C756FAF00417396 /* icecube_1.mp3 */; };
+		EAB8B9AD1C756FAF00417396 /* inspectahdeck_killahill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8D31C756FAF00417396 /* inspectahdeck_killahill.mp3 */; };
+		EAB8B9AE1C756FAF00417396 /* jadakiss_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8D41C756FAF00417396 /* jadakiss_3.mp3 */; };
+		EAB8B9AF1C756FAF00417396 /* jarule_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8D51C756FAF00417396 /* jarule_1.mp3 */; };
+		EAB8B9B01C756FAF00417396 /* jarule_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8D61C756FAF00417396 /* jarule_2.mp3 */; };
+		EAB8B9B11C756FAF00417396 /* jayz_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8D71C756FAF00417396 /* jayz_1.mp3 */; };
+		EAB8B9B21C756FAF00417396 /* jayz_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8D81C756FAF00417396 /* jayz_7.mp3 */; };
+		EAB8B9B31C756FAF00417396 /* jayz_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8D91C756FAF00417396 /* jayz_9.mp3 */; };
+		EAB8B9B41C756FAF00417396 /* jayz_itsthero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8DA1C756FAF00417396 /* jayz_itsthero.mp3 */; };
+		EAB8B9B51C756FAF00417396 /* jayz_itsyoboy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8DB1C756FAF00417396 /* jayz_itsyoboy.mp3 */; };
+		EAB8B9B61C756FAF00417396 /* jayz_jiggaman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8DC1C756FAF00417396 /* jayz_jiggaman.mp3 */; };
+		EAB8B9B71C756FAF00417396 /* jayz_woo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8DD1C756FAF00417396 /* jayz_woo.mp3 */; };
+		EAB8B9B81C756FAF00417396 /* jayz_yessir.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8DE1C756FAF00417396 /* jayz_yessir.mp3 */; };
+		EAB8B9B91C756FAF00417396 /* jayz_young.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8DF1C756FAF00417396 /* jayz_young.mp3 */; };
+		EAB8B9BA1C756FAF00417396 /* jayz5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8E01C756FAF00417396 /* jayz5.mp3 */; };
+		EAB8B9BB1C756FAF00417396 /* jayz7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8E11C756FAF00417396 /* jayz7.mp3 */; };
+		EAB8B9BC1C756FAF00417396 /* jayz8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8E21C756FAF00417396 /* jayz8.mp3 */; };
+		EAB8B9BD1C756FAF00417396 /* jazzypha_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8E31C756FAF00417396 /* jazzypha_1.mp3 */; };
+		EAB8B9BE1C756FAF00417396 /* jeezy_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8E41C756FAF00417396 /* jeezy_1.mp3 */; };
+		EAB8B9BF1C756FAF00417396 /* jeezy_10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8E51C756FAF00417396 /* jeezy_10.mp3 */; };
+		EAB8B9C01C756FAF00417396 /* jeezy_11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8E61C756FAF00417396 /* jeezy_11.mp3 */; };
+		EAB8B9C11C756FAF00417396 /* jermaine_unh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8E71C756FAF00417396 /* jermaine_unh.mp3 */; };
+		EAB8B9C21C756FAF00417396 /* jones_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8E81C756FAF00417396 /* jones_8.mp3 */; };
+		EAB8B9C31C756FAF00417396 /* jones_14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8E91C756FAF00417396 /* jones_14.mp3 */; };
+		EAB8B9C41C756FAF00417396 /* juelz_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8EA1C756FAF00417396 /* juelz_2.mp3 */; };
+		EAB8B9C51C756FAF00417396 /* juicyj_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8EB1C756FAF00417396 /* juicyj_1.mp3 */; };
+		EAB8B9C61C756FAF00417396 /* juicyj_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8EC1C756FAF00417396 /* juicyj_7.mp3 */; };
+		EAB8B9C71C756FAF00417396 /* juicyj_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8ED1C756FAF00417396 /* juicyj_8.mp3 */; };
+		EAB8B9C81C756FAF00417396 /* juicyj_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8EE1C756FAF00417396 /* juicyj_9.mp3 */; };
+		EAB8B9C91C756FAF00417396 /* juicyj_10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8EF1C756FAF00417396 /* juicyj_10.mp3 */; };
+		EAB8B9CA1C756FAF00417396 /* kanye_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8F01C756FAF00417396 /* kanye_1.mp3 */; };
+		EAB8B9CB1C756FAF00417396 /* keef_bang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8F11C756FAF00417396 /* keef_bang.mp3 */; };
+		EAB8B9CC1C756FAF00417396 /* keef_catchup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8F21C756FAF00417396 /* keef_catchup.mp3 */; };
+		EAB8B9CD1C756FAF00417396 /* killermike_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8F31C756FAF00417396 /* killermike_2.mp3 */; };
+		EAB8B9CE1C756FAF00417396 /* killermike_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8F41C756FAF00417396 /* killermike_3.mp3 */; };
+		EAB8B9CF1C756FAF00417396 /* krsone_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8F51C756FAF00417396 /* krsone_1.mp3 */; };
+		EAB8B9D01C756FAF00417396 /* lilb_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8F61C756FAF00417396 /* lilb_1.mp3 */; };
+		EAB8B9D11C756FAF00417396 /* lilb_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8F71C756FAF00417396 /* lilb_2.mp3 */; };
+		EAB8B9D21C756FAF00417396 /* liljon_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8F81C756FAF00417396 /* liljon_2.mp3 */; };
+		EAB8B9D31C756FAF00417396 /* liljon_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8F91C756FAF00417396 /* liljon_3.mp3 */; };
+		EAB8B9D41C756FAF00417396 /* liljon_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8FA1C756FAF00417396 /* liljon_4.mp3 */; };
+		EAB8B9D51C756FAF00417396 /* liljon_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8FB1C756FAF00417396 /* liljon_8.mp3 */; };
+		EAB8B9D61C756FAF00417396 /* lilscrappy_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8FC1C756FAF00417396 /* lilscrappy_1.mp3 */; };
+		EAB8B9D71C756FAF00417396 /* ludacris_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8FD1C756FAF00417396 /* ludacris_2.mp3 */; };
+		EAB8B9D81C756FAF00417396 /* ludacris_woo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8FE1C756FAF00417396 /* ludacris_woo.mp3 */; };
+		EAB8B9D91C756FAF00417396 /* mannie_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B8FF1C756FAF00417396 /* mannie_1.mp3 */; };
+		EAB8B9DA1C756FAF00417396 /* mannie_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9001C756FAF00417396 /* mannie_2.mp3 */; };
+		EAB8B9DB1C756FAF00417396 /* mceiht_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9011C756FAF00417396 /* mceiht_1.mp3 */; };
+		EAB8B9DC1C756FAF00417396 /* mchammer_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9021C756FAF00417396 /* mchammer_1.mp3 */; };
+		EAB8B9DD1C756FAF00417396 /* methodman_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9031C756FAF00417396 /* methodman_1.mp3 */; };
+		EAB8B9DE1C756FAF00417396 /* methodman_tical.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9041C756FAF00417396 /* methodman_tical.mp3 */; };
+		EAB8B9DF1C756FAF00417396 /* methodman_yo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9051C756FAF00417396 /* methodman_yo.mp3 */; };
+		EAB8B9E01C756FAF00417396 /* mikejones_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9061C756FAF00417396 /* mikejones_2.mp3 */; };
+		EAB8B9E11C756FAF00417396 /* mikejones_iceage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9071C756FAF00417396 /* mikejones_iceage.mp3 */; };
+		EAB8B9E21C756FAF00417396 /* mikejones_jyeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9081C756FAF00417396 /* mikejones_jyeah.mp3 */; };
+		EAB8B9E31C756FAF00417396 /* mop_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9091C756FAF00417396 /* mop_1.mp3 */; };
+		EAB8B9E41C756FAF00417396 /* mop_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B90A1C756FAF00417396 /* mop_2.mp3 */; };
+		EAB8B9E51C756FAF00417396 /* nas_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B90B1C756FAF00417396 /* nas_1.mp3 */; };
+		EAB8B9E61C756FAF00417396 /* nas_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B90C1C756FAF00417396 /* nas_3.mp3 */; };
+		EAB8B9E71C756FAF00417396 /* nas_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B90D1C756FAF00417396 /* nas_6.mp3 */; };
+		EAB8B9E81C756FAF00417396 /* natedogg_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B90E1C756FAF00417396 /* natedogg_1.mp3 */; };
+		EAB8B9E91C756FAF00417396 /* nore_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B90F1C756FAF00417396 /* nore_1.mp3 */; };
+		EAB8B9EA1C756FAF00417396 /* odb_shimmy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9101C756FAF00417396 /* odb_shimmy.mp3 */; };
+		EAB8B9EB1C756FAF00417396 /* odb_yo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9111C756FAF00417396 /* odb_yo.mp3 */; };
+		EAB8B9EC1C756FAF00417396 /* oj_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9121C756FAF00417396 /* oj_4.mp3 */; };
+		EAB8B9ED1C756FAF00417396 /* pharrell_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9131C756FAF00417396 /* pharrell_1.mp3 */; };
+		EAB8B9EE1C756FAF00417396 /* pharrell_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9141C756FAF00417396 /* pharrell_2.mp3 */; };
+		EAB8B9EF1C756FAF00417396 /* pill_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9151C756FAF00417396 /* pill_1.mp3 */; };
+		EAB8B9F01C756FAF00417396 /* pimpc_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9161C756FAF00417396 /* pimpc_1.mp3 */; };
+		EAB8B9F11C756FAF00417396 /* pimpc_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9171C756FAF00417396 /* pimpc_4.mp3 */; };
+		EAB8B9F21C756FAF00417396 /* pimpc_sweetjones3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9181C756FAF00417396 /* pimpc_sweetjones3.mp3 */; };
+		EAB8B9F31C756FAF00417396 /* pitbull_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9191C756FAF00417396 /* pitbull_1.mp3 */; };
+		EAB8B9F41C756FAF00417396 /* pitbull_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B91A1C756FAF00417396 /* pitbull_2.mp3 */; };
+		EAB8B9F51C756FAF00417396 /* pitbull_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B91B1C756FAF00417396 /* pitbull_3.mp3 */; };
+		EAB8B9F61C756FAF00417396 /* pitbull_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B91C1C756FAF00417396 /* pitbull_6.mp3 */; };
+		EAB8B9F71C756FAF00417396 /* projectpat_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B91D1C756FAF00417396 /* projectpat_1.mp3 */; };
+		EAB8B9F81C756FAF00417396 /* pushat_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B91E1C756FAF00417396 /* pushat_1.mp3 */; };
+		EAB8B9F91C756FAF00417396 /* pushat_haha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B91F1C756FAF00417396 /* pushat_haha.mp3 */; };
+		EAB8B9FA1C756FAF00417396 /* pushat_unh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9201C756FAF00417396 /* pushat_unh.mp3 */; };
+		EAB8B9FB1C756FAF00417396 /* raekwon_yo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9211C756FAF00417396 /* raekwon_yo.mp3 */; };
+		EAB8B9FC1C756FAF00417396 /* redman_heyo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9221C756FAF00417396 /* redman_heyo.mp3 */; };
+		EAB8B9FD1C756FAF00417396 /* ross_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9231C756FAF00417396 /* ross_1.mp3 */; };
+		EAB8B9FE1C756FAF00417396 /* ross_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9241C756FAF00417396 /* ross_2.mp3 */; };
+		EAB8B9FF1C756FAF00417396 /* ross_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9251C756FAF00417396 /* ross_4.mp3 */; };
+		EAB8BA001C756FAF00417396 /* ross_woo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9261C756FAF00417396 /* ross_woo.mp3 */; };
+		EAB8BA011C756FAF00417396 /* seanprice_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9271C756FAF00417396 /* seanprice_1.mp3 */; };
+		EAB8BA021C756FAF00417396 /* snoop_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9281C756FAF00417396 /* snoop_1.mp3 */; };
+		EAB8BA031C756FAF00417396 /* snoop_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9291C756FAF00417396 /* snoop_4.mp3 */; };
+		EAB8BA041C756FAF00417396 /* snoop_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B92A1C756FAF00417396 /* snoop_5.mp3 */; };
+		EAB8BA051C756FAF00417396 /* soulja_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B92B1C756FAF00417396 /* soulja_2.mp3 */; };
+		EAB8BA061C756FAF00417396 /* soulja_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B92C1C756FAF00417396 /* soulja_4.mp3 */; };
+		EAB8BA071C756FAF00417396 /* soulja_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B92D1C756FAF00417396 /* soulja_5.mp3 */; };
+		EAB8BA081C756FAF00417396 /* swizz_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B92E1C756FAF00417396 /* swizz_1.mp3 */; };
+		EAB8BA091C756FAF00417396 /* swizz_goddamit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B92F1C756FAF00417396 /* swizz_goddamit.mp3 */; };
+		EAB8BA0A1C756FAF00417396 /* thugga_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9301C756FAF00417396 /* thugga_2.mp3 */; };
+		EAB8BA0B1C756FAF00417396 /* thugga_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9311C756FAF00417396 /* thugga_3.mp3 */; };
+		EAB8BA0C1C756FAF00417396 /* ti_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9321C756FAF00417396 /* ti_2.mp3 */; };
+		EAB8BA0D1C756FAF00417396 /* ti_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9331C756FAF00417396 /* ti_3.mp3 */; };
+		EAB8BA0E1C756FAF00417396 /* ti_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9341C756FAF00417396 /* ti_5.mp3 */; };
+		EAB8BA0F1C756FAF00417396 /* ti_22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9351C756FAF00417396 /* ti_22.mp3 */; };
+		EAB8BA101C756FAF00417396 /* ti_32.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9361C756FAF00417396 /* ti_32.mp3 */; };
+		EAB8BA111C756FAF00417396 /* tooshort_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9371C756FAF00417396 /* tooshort_1.mp3 */; };
+		EAB8BA121C756FAF00417396 /* tpain_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9381C756FAF00417396 /* tpain_2.mp3 */; };
+		EAB8BA131C756FAF00417396 /* tpain1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9391C756FAF00417396 /* tpain1.mp3 */; };
+		EAB8BA141C756FAF00417396 /* treysongz_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B93A1C756FAF00417396 /* treysongz_4.mp3 */; };
+		EAB8BA151C756FAF00417396 /* trick_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B93B1C756FAF00417396 /* trick_1.mp3 */; };
+		EAB8BA161C756FAF00417396 /* trick_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B93C1C756FAF00417396 /* trick_2.mp3 */; };
+		EAB8BA171C756FAF00417396 /* trick_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B93D1C756FAF00417396 /* trick_4.mp3 */; };
+		EAB8BA181C756FAF00417396 /* tyga_unh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B93E1C756FAF00417396 /* tyga_unh.mp3 */; };
+		EAB8BA191C756FAF00417396 /* vado_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B93F1C756FAF00417396 /* vado_1.mp3 */; };
+		EAB8BA1A1C756FAF00417396 /* waka_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9401C756FAF00417396 /* waka_1.mp3 */; };
+		EAB8BA1B1C756FAF00417396 /* waka_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9411C756FAF00417396 /* waka_8.mp3 */; };
+		EAB8BA1C1C756FAF00417396 /* weezy_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9421C756FAF00417396 /* weezy_4.mp3 */; };
+		EAB8BA1D1C756FAF00417396 /* weezy_14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9431C756FAF00417396 /* weezy_14.mp3 */; };
+		EAB8BA1E1C756FAF00417396 /* weezy_16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9441C756FAF00417396 /* weezy_16.mp3 */; };
+		EAB8BA1F1C756FAF00417396 /* weezy_17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9451C756FAF00417396 /* weezy_17.mp3 */; };
+		EAB8BA201C756FAF00417396 /* weezy_22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9461C756FAF00417396 /* weezy_22.mp3 */; };
+		EAB8BA211C756FAF00417396 /* weezy_25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9471C756FAF00417396 /* weezy_25.mp3 */; };
+		EAB8BA221C756FAF00417396 /* weezy_29.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9481C756FAF00417396 /* weezy_29.mp3 */; };
+		EAB8BA231C756FAF00417396 /* weezy_30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B9491C756FAF00417396 /* weezy_30.mp3 */; };
+		EAB8BA241C756FAF00417396 /* weezy_31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B94A1C756FAF00417396 /* weezy_31.mp3 */; };
+		EAB8BA251C756FAF00417396 /* willsmith_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B94B1C756FAF00417396 /* willsmith_1.mp3 */; };
+		EAB8BA261C756FAF00417396 /* willsmith_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B94C1C756FAF00417396 /* willsmith_2.mp3 */; };
+		EAB8BA271C756FAF00417396 /* willsmith_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B94D1C756FAF00417396 /* willsmith_3.mp3 */; };
+		EAB8BA281C756FAF00417396 /* wiz_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B94E1C756FAF00417396 /* wiz_1.mp3 */; };
+		EAB8BA291C756FAF00417396 /* wiz_unh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAB8B94F1C756FAF00417396 /* wiz_unh.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,7 +334,224 @@
 		A7CAEE3A1C72C5CB00DAAFC0 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		A7CAEE401C72D21400DAAFC0 /* SoundboardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundboardCollectionViewCell.swift; sourceTree = "<group>"; };
 		A7CAEE421C72D59200DAAFC0 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		A7CAEE471C72DCDA00DAAFC0 /* kanye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kanye.mp3; sourceTree = "<group>"; };
+		EAB8B8761C756FAF00417396 /* 2chainz_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2chainz_1.mp3; sourceTree = "<group>"; };
+		EAB8B8771C756FAF00417396 /* 2chainz_yeah2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2chainz_yeah2.mp3; sourceTree = "<group>"; };
+		EAB8B8781C756FAF00417396 /* 2pac_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2pac_4.mp3; sourceTree = "<group>"; };
+		EAB8B8791C756FAF00417396 /* 2pac_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2pac_5.mp3; sourceTree = "<group>"; };
+		EAB8B87A1C756FAF00417396 /* 2pac_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2pac_6.mp3; sourceTree = "<group>"; };
+		EAB8B87B1C756FAF00417396 /* 50_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 50_5.mp3; sourceTree = "<group>"; };
+		EAB8B87C1C756FAF00417396 /* 50_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 50_8.mp3; sourceTree = "<group>"; };
+		EAB8B87D1C756FAF00417396 /* 50_11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 50_11.mp3; sourceTree = "<group>"; };
+		EAB8B87E1C756FAF00417396 /* 50cent_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 50cent_2.mp3; sourceTree = "<group>"; };
+		EAB8B87F1C756FAF00417396 /* action_bronsolino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = action_bronsolino.mp3; sourceTree = "<group>"; };
+		EAB8B8801C756FAF00417396 /* action_yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = action_yeah.mp3; sourceTree = "<group>"; };
+		EAB8B8811C756FAF00417396 /* action_yo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = action_yo.mp3; sourceTree = "<group>"; };
+		EAB8B8821C756FAF00417396 /* akon_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = akon_1.mp3; sourceTree = "<group>"; };
+		EAB8B8831C756FAF00417396 /* banks_unh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = banks_unh.mp3; sourceTree = "<group>"; };
+		EAB8B8841C756FAF00417396 /* banks_yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = banks_yeah.mp3; sourceTree = "<group>"; };
+		EAB8B8851C756FAF00417396 /* beanie_mac.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beanie_mac.mp3; sourceTree = "<group>"; };
+		EAB8B8861C756FAF00417396 /* bigboi_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigboi_1.mp3; sourceTree = "<group>"; };
+		EAB8B8871C756FAF00417396 /* biggie_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = biggie_1.mp3; sourceTree = "<group>"; };
+		EAB8B8881C756FAF00417396 /* biggie_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = biggie_2.mp3; sourceTree = "<group>"; };
+		EAB8B8891C756FAF00417396 /* bigl_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigl_3.mp3; sourceTree = "<group>"; };
+		EAB8B88A1C756FAF00417396 /* bigl_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigl_4.mp3; sourceTree = "<group>"; };
+		EAB8B88B1C756FAF00417396 /* bigl_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigl_5.mp3; sourceTree = "<group>"; };
+		EAB8B88C1C756FAF00417396 /* bigsean_boi2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigsean_boi2.mp3; sourceTree = "<group>"; };
+		EAB8B88D1C756FAF00417396 /* bigsean_doit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigsean_doit.mp3; sourceTree = "<group>"; };
+		EAB8B88E1C756FAF00417396 /* bigsean_holdup2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigsean_holdup2.mp3; sourceTree = "<group>"; };
+		EAB8B88F1C756FAF00417396 /* bigsean_ohgod.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigsean_ohgod.mp3; sourceTree = "<group>"; };
+		EAB8B8901C756FAF00417396 /* bigsean_okay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigsean_okay.mp3; sourceTree = "<group>"; };
+		EAB8B8911C756FAF00417396 /* bigsean_stop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigsean_stop.mp3; sourceTree = "<group>"; };
+		EAB8B8921C756FAF00417396 /* bigsean_whoa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigsean_whoa.mp3; sourceTree = "<group>"; };
+		EAB8B8931C756FAF00417396 /* bigsean_whoathere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigsean_whoathere.mp3; sourceTree = "<group>"; };
+		EAB8B8941C756FAF00417396 /* birdman_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birdman_1.mp3; sourceTree = "<group>"; };
+		EAB8B8951C756FAF00417396 /* birdman_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birdman_4.mp3; sourceTree = "<group>"; };
+		EAB8B8961C756FAF00417396 /* birdman_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birdman_6.mp3; sourceTree = "<group>"; };
+		EAB8B8971C756FAF00417396 /* birdman_10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birdman_10.mp3; sourceTree = "<group>"; };
+		EAB8B8981C756FAF00417396 /* birdman_16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birdman_16.mp3; sourceTree = "<group>"; };
+		EAB8B8991C756FAF00417396 /* bowwow_yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bowwow_yeah.mp3; sourceTree = "<group>"; };
+		EAB8B89A1C756FAF00417396 /* bunb_ugk4life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bunb_ugk4life.mp3; sourceTree = "<group>"; };
+		EAB8B89B1C756FAF00417396 /* busta_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = busta_1.mp3; sourceTree = "<group>"; };
+		EAB8B89C1C756FAF00417396 /* busta_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = busta_2.mp3; sourceTree = "<group>"; };
+		EAB8B89D1C756FAF00417396 /* busta_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = busta_5.mp3; sourceTree = "<group>"; };
+		EAB8B89E1C756FAF00417396 /* busta_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = busta_6.mp3; sourceTree = "<group>"; };
+		EAB8B89F1C756FAF00417396 /* camron_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = camron_1.mp3; sourceTree = "<group>"; };
+		EAB8B8A01C756FAF00417396 /* camron_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = camron_2.mp3; sourceTree = "<group>"; };
+		EAB8B8A11C756FAF00417396 /* chingy_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chingy_1.mp3; sourceTree = "<group>"; };
+		EAB8B8A21C756FAF00417396 /* currensy_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = currensy_1.mp3; sourceTree = "<group>"; };
+		EAB8B8A31C756FAF00417396 /* dabrat_comeon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dabrat_comeon.mp3; sourceTree = "<group>"; };
+		EAB8B8A41C756FAF00417396 /* dabrat_lookout.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dabrat_lookout.mp3; sourceTree = "<group>"; };
+		EAB8B8A51C756FAF00417396 /* dabrat_oh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dabrat_oh.mp3; sourceTree = "<group>"; };
+		EAB8B8A61C756FAF00417396 /* danny_stop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = danny_stop.mp3; sourceTree = "<group>"; };
+		EAB8B8A71C756FAF00417396 /* danny_yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = danny_yeah.mp3; sourceTree = "<group>"; };
+		EAB8B8A81C756FAF00417396 /* dannybrown_laugh2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dannybrown_laugh2.mp3; sourceTree = "<group>"; };
+		EAB8B8A91C756FAF00417396 /* davidbanner_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = davidbanner_5.mp3; sourceTree = "<group>"; };
+		EAB8B8AA1C756FAF00417396 /* diddy_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diddy_1.mp3; sourceTree = "<group>"; };
+		EAB8B8AB1C756FAF00417396 /* diddy_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diddy_3.mp3; sourceTree = "<group>"; };
+		EAB8B8AC1C756FAF00417396 /* diddy_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diddy_4.mp3; sourceTree = "<group>"; };
+		EAB8B8AD1C756FAF00417396 /* diddy_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diddy_5.mp3; sourceTree = "<group>"; };
+		EAB8B8AE1C756FAF00417396 /* diddy_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diddy_6.mp3; sourceTree = "<group>"; };
+		EAB8B8AF1C756FAF00417396 /* diddy_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diddy_7.mp3; sourceTree = "<group>"; };
+		EAB8B8B01C756FAF00417396 /* dizzee_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dizzee_1.mp3; sourceTree = "<group>"; };
+		EAB8B8B11C756FAF00417396 /* djkhaled_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = djkhaled_2.mp3; sourceTree = "<group>"; };
+		EAB8B8B21C756FAF00417396 /* djkhaled_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = djkhaled_3.mp3; sourceTree = "<group>"; };
+		EAB8B8B31C756FAF00417396 /* djpaul_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = djpaul_2.mp3; sourceTree = "<group>"; };
+		EAB8B8B41C756FAF00417396 /* djpaul_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = djpaul_3.mp3; sourceTree = "<group>"; };
+		EAB8B8B51C756FAF00417396 /* djpaul_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = djpaul_9.mp3; sourceTree = "<group>"; };
+		EAB8B8B61C756FAF00417396 /* dmx_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dmx_1.mp3; sourceTree = "<group>"; };
+		EAB8B8B71C756FAF00417396 /* dmx_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dmx_3.mp3; sourceTree = "<group>"; };
+		EAB8B8B81C756FAF00417396 /* dmx_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dmx_6.mp3; sourceTree = "<group>"; };
+		EAB8B8B91C756FAF00417396 /* dmx_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dmx_7.mp3; sourceTree = "<group>"; };
+		EAB8B8BA1C756FAF00417396 /* drake_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drake_2.mp3; sourceTree = "<group>"; };
+		EAB8B8BB1C756FAF00417396 /* drake_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drake_3.mp3; sourceTree = "<group>"; };
+		EAB8B8BC1C756FAF00417396 /* drake_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drake_4.mp3; sourceTree = "<group>"; };
+		EAB8B8BD1C756FAF00417396 /* drake_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drake_5.mp3; sourceTree = "<group>"; };
+		EAB8B8BE1C756FAF00417396 /* drummaboy_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drummaboy_1.mp3; sourceTree = "<group>"; };
+		EAB8B8BF1C756FAF00417396 /* e40_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = e40_1.mp3; sourceTree = "<group>"; };
+		EAB8B8C01C756FAF00417396 /* e40_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = e40_2.mp3; sourceTree = "<group>"; };
+		EAB8B8C11C756FAF00417396 /* eazye_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eazye_1.mp3; sourceTree = "<group>"; };
+		EAB8B8C21C756FAF00417396 /* eminem_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eminem_3.mp3; sourceTree = "<group>"; };
+		EAB8B8C31C756FAF00417396 /* eminem_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eminem_4.mp3; sourceTree = "<group>"; };
+		EAB8B8C41C756FAF00417396 /* fatjoe_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fatjoe_1.mp3; sourceTree = "<group>"; };
+		EAB8B8C51C756FAF00417396 /* fatjoe_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fatjoe_5.mp3; sourceTree = "<group>"; };
+		EAB8B8C61C756FAF00417396 /* fatjoe_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fatjoe_9.mp3; sourceTree = "<group>"; };
+		EAB8B8C71C756FAF00417396 /* flava_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flava_1.mp3; sourceTree = "<group>"; };
+		EAB8B8C81C756FAF00417396 /* freeway_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = freeway_1.mp3; sourceTree = "<group>"; };
+		EAB8B8C91C756FAF00417396 /* french_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = french_1.mp3; sourceTree = "<group>"; };
+		EAB8B8CA1C756FAF00417396 /* ghostface_yo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ghostface_yo.mp3; sourceTree = "<group>"; };
+		EAB8B8CB1C756FAF00417396 /* grandmaster_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grandmaster_1.mp3; sourceTree = "<group>"; };
+		EAB8B8CC1C756FAF00417396 /* gucci_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gucci_1.mp3; sourceTree = "<group>"; };
+		EAB8B8CD1C756FAF00417396 /* gucci_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gucci_4.mp3; sourceTree = "<group>"; };
+		EAB8B8CE1C756FAF00417396 /* gucci_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gucci_8.mp3; sourceTree = "<group>"; };
+		EAB8B8CF1C756FAF00417396 /* gucci_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gucci_9.mp3; sourceTree = "<group>"; };
+		EAB8B8D01C756FAF00417396 /* gucci_14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gucci_14.mp3; sourceTree = "<group>"; };
+		EAB8B8D11C756FAF00417396 /* hurricanechris_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hurricanechris_1.mp3; sourceTree = "<group>"; };
+		EAB8B8D21C756FAF00417396 /* icecube_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = icecube_1.mp3; sourceTree = "<group>"; };
+		EAB8B8D31C756FAF00417396 /* inspectahdeck_killahill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = inspectahdeck_killahill.mp3; sourceTree = "<group>"; };
+		EAB8B8D41C756FAF00417396 /* jadakiss_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jadakiss_3.mp3; sourceTree = "<group>"; };
+		EAB8B8D51C756FAF00417396 /* jarule_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jarule_1.mp3; sourceTree = "<group>"; };
+		EAB8B8D61C756FAF00417396 /* jarule_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jarule_2.mp3; sourceTree = "<group>"; };
+		EAB8B8D71C756FAF00417396 /* jayz_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jayz_1.mp3; sourceTree = "<group>"; };
+		EAB8B8D81C756FAF00417396 /* jayz_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jayz_7.mp3; sourceTree = "<group>"; };
+		EAB8B8D91C756FAF00417396 /* jayz_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jayz_9.mp3; sourceTree = "<group>"; };
+		EAB8B8DA1C756FAF00417396 /* jayz_itsthero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jayz_itsthero.mp3; sourceTree = "<group>"; };
+		EAB8B8DB1C756FAF00417396 /* jayz_itsyoboy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jayz_itsyoboy.mp3; sourceTree = "<group>"; };
+		EAB8B8DC1C756FAF00417396 /* jayz_jiggaman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jayz_jiggaman.mp3; sourceTree = "<group>"; };
+		EAB8B8DD1C756FAF00417396 /* jayz_woo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jayz_woo.mp3; sourceTree = "<group>"; };
+		EAB8B8DE1C756FAF00417396 /* jayz_yessir.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jayz_yessir.mp3; sourceTree = "<group>"; };
+		EAB8B8DF1C756FAF00417396 /* jayz_young.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jayz_young.mp3; sourceTree = "<group>"; };
+		EAB8B8E01C756FAF00417396 /* jayz5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jayz5.mp3; sourceTree = "<group>"; };
+		EAB8B8E11C756FAF00417396 /* jayz7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jayz7.mp3; sourceTree = "<group>"; };
+		EAB8B8E21C756FAF00417396 /* jayz8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jayz8.mp3; sourceTree = "<group>"; };
+		EAB8B8E31C756FAF00417396 /* jazzypha_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jazzypha_1.mp3; sourceTree = "<group>"; };
+		EAB8B8E41C756FAF00417396 /* jeezy_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jeezy_1.mp3; sourceTree = "<group>"; };
+		EAB8B8E51C756FAF00417396 /* jeezy_10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jeezy_10.mp3; sourceTree = "<group>"; };
+		EAB8B8E61C756FAF00417396 /* jeezy_11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jeezy_11.mp3; sourceTree = "<group>"; };
+		EAB8B8E71C756FAF00417396 /* jermaine_unh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jermaine_unh.mp3; sourceTree = "<group>"; };
+		EAB8B8E81C756FAF00417396 /* jones_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jones_8.mp3; sourceTree = "<group>"; };
+		EAB8B8E91C756FAF00417396 /* jones_14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jones_14.mp3; sourceTree = "<group>"; };
+		EAB8B8EA1C756FAF00417396 /* juelz_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = juelz_2.mp3; sourceTree = "<group>"; };
+		EAB8B8EB1C756FAF00417396 /* juicyj_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = juicyj_1.mp3; sourceTree = "<group>"; };
+		EAB8B8EC1C756FAF00417396 /* juicyj_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = juicyj_7.mp3; sourceTree = "<group>"; };
+		EAB8B8ED1C756FAF00417396 /* juicyj_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = juicyj_8.mp3; sourceTree = "<group>"; };
+		EAB8B8EE1C756FAF00417396 /* juicyj_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = juicyj_9.mp3; sourceTree = "<group>"; };
+		EAB8B8EF1C756FAF00417396 /* juicyj_10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = juicyj_10.mp3; sourceTree = "<group>"; };
+		EAB8B8F01C756FAF00417396 /* kanye_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kanye_1.mp3; sourceTree = "<group>"; };
+		EAB8B8F11C756FAF00417396 /* keef_bang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = keef_bang.mp3; sourceTree = "<group>"; };
+		EAB8B8F21C756FAF00417396 /* keef_catchup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = keef_catchup.mp3; sourceTree = "<group>"; };
+		EAB8B8F31C756FAF00417396 /* killermike_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = killermike_2.mp3; sourceTree = "<group>"; };
+		EAB8B8F41C756FAF00417396 /* killermike_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = killermike_3.mp3; sourceTree = "<group>"; };
+		EAB8B8F51C756FAF00417396 /* krsone_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = krsone_1.mp3; sourceTree = "<group>"; };
+		EAB8B8F61C756FAF00417396 /* lilb_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lilb_1.mp3; sourceTree = "<group>"; };
+		EAB8B8F71C756FAF00417396 /* lilb_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lilb_2.mp3; sourceTree = "<group>"; };
+		EAB8B8F81C756FAF00417396 /* liljon_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = liljon_2.mp3; sourceTree = "<group>"; };
+		EAB8B8F91C756FAF00417396 /* liljon_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = liljon_3.mp3; sourceTree = "<group>"; };
+		EAB8B8FA1C756FAF00417396 /* liljon_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = liljon_4.mp3; sourceTree = "<group>"; };
+		EAB8B8FB1C756FAF00417396 /* liljon_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = liljon_8.mp3; sourceTree = "<group>"; };
+		EAB8B8FC1C756FAF00417396 /* lilscrappy_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lilscrappy_1.mp3; sourceTree = "<group>"; };
+		EAB8B8FD1C756FAF00417396 /* ludacris_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ludacris_2.mp3; sourceTree = "<group>"; };
+		EAB8B8FE1C756FAF00417396 /* ludacris_woo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ludacris_woo.mp3; sourceTree = "<group>"; };
+		EAB8B8FF1C756FAF00417396 /* mannie_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mannie_1.mp3; sourceTree = "<group>"; };
+		EAB8B9001C756FAF00417396 /* mannie_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mannie_2.mp3; sourceTree = "<group>"; };
+		EAB8B9011C756FAF00417396 /* mceiht_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mceiht_1.mp3; sourceTree = "<group>"; };
+		EAB8B9021C756FAF00417396 /* mchammer_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mchammer_1.mp3; sourceTree = "<group>"; };
+		EAB8B9031C756FAF00417396 /* methodman_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = methodman_1.mp3; sourceTree = "<group>"; };
+		EAB8B9041C756FAF00417396 /* methodman_tical.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = methodman_tical.mp3; sourceTree = "<group>"; };
+		EAB8B9051C756FAF00417396 /* methodman_yo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = methodman_yo.mp3; sourceTree = "<group>"; };
+		EAB8B9061C756FAF00417396 /* mikejones_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mikejones_2.mp3; sourceTree = "<group>"; };
+		EAB8B9071C756FAF00417396 /* mikejones_iceage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mikejones_iceage.mp3; sourceTree = "<group>"; };
+		EAB8B9081C756FAF00417396 /* mikejones_jyeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mikejones_jyeah.mp3; sourceTree = "<group>"; };
+		EAB8B9091C756FAF00417396 /* mop_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mop_1.mp3; sourceTree = "<group>"; };
+		EAB8B90A1C756FAF00417396 /* mop_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mop_2.mp3; sourceTree = "<group>"; };
+		EAB8B90B1C756FAF00417396 /* nas_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nas_1.mp3; sourceTree = "<group>"; };
+		EAB8B90C1C756FAF00417396 /* nas_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nas_3.mp3; sourceTree = "<group>"; };
+		EAB8B90D1C756FAF00417396 /* nas_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nas_6.mp3; sourceTree = "<group>"; };
+		EAB8B90E1C756FAF00417396 /* natedogg_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = natedogg_1.mp3; sourceTree = "<group>"; };
+		EAB8B90F1C756FAF00417396 /* nore_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nore_1.mp3; sourceTree = "<group>"; };
+		EAB8B9101C756FAF00417396 /* odb_shimmy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = odb_shimmy.mp3; sourceTree = "<group>"; };
+		EAB8B9111C756FAF00417396 /* odb_yo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = odb_yo.mp3; sourceTree = "<group>"; };
+		EAB8B9121C756FAF00417396 /* oj_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oj_4.mp3; sourceTree = "<group>"; };
+		EAB8B9131C756FAF00417396 /* pharrell_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pharrell_1.mp3; sourceTree = "<group>"; };
+		EAB8B9141C756FAF00417396 /* pharrell_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pharrell_2.mp3; sourceTree = "<group>"; };
+		EAB8B9151C756FAF00417396 /* pill_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pill_1.mp3; sourceTree = "<group>"; };
+		EAB8B9161C756FAF00417396 /* pimpc_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pimpc_1.mp3; sourceTree = "<group>"; };
+		EAB8B9171C756FAF00417396 /* pimpc_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pimpc_4.mp3; sourceTree = "<group>"; };
+		EAB8B9181C756FAF00417396 /* pimpc_sweetjones3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pimpc_sweetjones3.mp3; sourceTree = "<group>"; };
+		EAB8B9191C756FAF00417396 /* pitbull_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pitbull_1.mp3; sourceTree = "<group>"; };
+		EAB8B91A1C756FAF00417396 /* pitbull_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pitbull_2.mp3; sourceTree = "<group>"; };
+		EAB8B91B1C756FAF00417396 /* pitbull_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pitbull_3.mp3; sourceTree = "<group>"; };
+		EAB8B91C1C756FAF00417396 /* pitbull_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pitbull_6.mp3; sourceTree = "<group>"; };
+		EAB8B91D1C756FAF00417396 /* projectpat_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = projectpat_1.mp3; sourceTree = "<group>"; };
+		EAB8B91E1C756FAF00417396 /* pushat_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pushat_1.mp3; sourceTree = "<group>"; };
+		EAB8B91F1C756FAF00417396 /* pushat_haha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pushat_haha.mp3; sourceTree = "<group>"; };
+		EAB8B9201C756FAF00417396 /* pushat_unh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pushat_unh.mp3; sourceTree = "<group>"; };
+		EAB8B9211C756FAF00417396 /* raekwon_yo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = raekwon_yo.mp3; sourceTree = "<group>"; };
+		EAB8B9221C756FAF00417396 /* redman_heyo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = redman_heyo.mp3; sourceTree = "<group>"; };
+		EAB8B9231C756FAF00417396 /* ross_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ross_1.mp3; sourceTree = "<group>"; };
+		EAB8B9241C756FAF00417396 /* ross_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ross_2.mp3; sourceTree = "<group>"; };
+		EAB8B9251C756FAF00417396 /* ross_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ross_4.mp3; sourceTree = "<group>"; };
+		EAB8B9261C756FAF00417396 /* ross_woo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ross_woo.mp3; sourceTree = "<group>"; };
+		EAB8B9271C756FAF00417396 /* seanprice_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seanprice_1.mp3; sourceTree = "<group>"; };
+		EAB8B9281C756FAF00417396 /* snoop_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snoop_1.mp3; sourceTree = "<group>"; };
+		EAB8B9291C756FAF00417396 /* snoop_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snoop_4.mp3; sourceTree = "<group>"; };
+		EAB8B92A1C756FAF00417396 /* snoop_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snoop_5.mp3; sourceTree = "<group>"; };
+		EAB8B92B1C756FAF00417396 /* soulja_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soulja_2.mp3; sourceTree = "<group>"; };
+		EAB8B92C1C756FAF00417396 /* soulja_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soulja_4.mp3; sourceTree = "<group>"; };
+		EAB8B92D1C756FAF00417396 /* soulja_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soulja_5.mp3; sourceTree = "<group>"; };
+		EAB8B92E1C756FAF00417396 /* swizz_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swizz_1.mp3; sourceTree = "<group>"; };
+		EAB8B92F1C756FAF00417396 /* swizz_goddamit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swizz_goddamit.mp3; sourceTree = "<group>"; };
+		EAB8B9301C756FAF00417396 /* thugga_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thugga_2.mp3; sourceTree = "<group>"; };
+		EAB8B9311C756FAF00417396 /* thugga_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thugga_3.mp3; sourceTree = "<group>"; };
+		EAB8B9321C756FAF00417396 /* ti_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ti_2.mp3; sourceTree = "<group>"; };
+		EAB8B9331C756FAF00417396 /* ti_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ti_3.mp3; sourceTree = "<group>"; };
+		EAB8B9341C756FAF00417396 /* ti_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ti_5.mp3; sourceTree = "<group>"; };
+		EAB8B9351C756FAF00417396 /* ti_22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ti_22.mp3; sourceTree = "<group>"; };
+		EAB8B9361C756FAF00417396 /* ti_32.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ti_32.mp3; sourceTree = "<group>"; };
+		EAB8B9371C756FAF00417396 /* tooshort_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tooshort_1.mp3; sourceTree = "<group>"; };
+		EAB8B9381C756FAF00417396 /* tpain_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tpain_2.mp3; sourceTree = "<group>"; };
+		EAB8B9391C756FAF00417396 /* tpain1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tpain1.mp3; sourceTree = "<group>"; };
+		EAB8B93A1C756FAF00417396 /* treysongz_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = treysongz_4.mp3; sourceTree = "<group>"; };
+		EAB8B93B1C756FAF00417396 /* trick_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trick_1.mp3; sourceTree = "<group>"; };
+		EAB8B93C1C756FAF00417396 /* trick_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trick_2.mp3; sourceTree = "<group>"; };
+		EAB8B93D1C756FAF00417396 /* trick_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trick_4.mp3; sourceTree = "<group>"; };
+		EAB8B93E1C756FAF00417396 /* tyga_unh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tyga_unh.mp3; sourceTree = "<group>"; };
+		EAB8B93F1C756FAF00417396 /* vado_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vado_1.mp3; sourceTree = "<group>"; };
+		EAB8B9401C756FAF00417396 /* waka_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waka_1.mp3; sourceTree = "<group>"; };
+		EAB8B9411C756FAF00417396 /* waka_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waka_8.mp3; sourceTree = "<group>"; };
+		EAB8B9421C756FAF00417396 /* weezy_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weezy_4.mp3; sourceTree = "<group>"; };
+		EAB8B9431C756FAF00417396 /* weezy_14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weezy_14.mp3; sourceTree = "<group>"; };
+		EAB8B9441C756FAF00417396 /* weezy_16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weezy_16.mp3; sourceTree = "<group>"; };
+		EAB8B9451C756FAF00417396 /* weezy_17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weezy_17.mp3; sourceTree = "<group>"; };
+		EAB8B9461C756FAF00417396 /* weezy_22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weezy_22.mp3; sourceTree = "<group>"; };
+		EAB8B9471C756FAF00417396 /* weezy_25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weezy_25.mp3; sourceTree = "<group>"; };
+		EAB8B9481C756FAF00417396 /* weezy_29.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weezy_29.mp3; sourceTree = "<group>"; };
+		EAB8B9491C756FAF00417396 /* weezy_30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weezy_30.mp3; sourceTree = "<group>"; };
+		EAB8B94A1C756FAF00417396 /* weezy_31.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weezy_31.mp3; sourceTree = "<group>"; };
+		EAB8B94B1C756FAF00417396 /* willsmith_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = willsmith_1.mp3; sourceTree = "<group>"; };
+		EAB8B94C1C756FAF00417396 /* willsmith_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = willsmith_2.mp3; sourceTree = "<group>"; };
+		EAB8B94D1C756FAF00417396 /* willsmith_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = willsmith_3.mp3; sourceTree = "<group>"; };
+		EAB8B94E1C756FAF00417396 /* wiz_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wiz_1.mp3; sourceTree = "<group>"; };
+		EAB8B94F1C756FAF00417396 /* wiz_unh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wiz_unh.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,7 +677,224 @@
 		A7CAEE461C72DCDA00DAAFC0 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
-				A7CAEE471C72DCDA00DAAFC0 /* kanye.mp3 */,
+				EAB8B8761C756FAF00417396 /* 2chainz_1.mp3 */,
+				EAB8B8771C756FAF00417396 /* 2chainz_yeah2.mp3 */,
+				EAB8B8781C756FAF00417396 /* 2pac_4.mp3 */,
+				EAB8B8791C756FAF00417396 /* 2pac_5.mp3 */,
+				EAB8B87A1C756FAF00417396 /* 2pac_6.mp3 */,
+				EAB8B87B1C756FAF00417396 /* 50_5.mp3 */,
+				EAB8B87C1C756FAF00417396 /* 50_8.mp3 */,
+				EAB8B87D1C756FAF00417396 /* 50_11.mp3 */,
+				EAB8B87E1C756FAF00417396 /* 50cent_2.mp3 */,
+				EAB8B87F1C756FAF00417396 /* action_bronsolino.mp3 */,
+				EAB8B8801C756FAF00417396 /* action_yeah.mp3 */,
+				EAB8B8811C756FAF00417396 /* action_yo.mp3 */,
+				EAB8B8821C756FAF00417396 /* akon_1.mp3 */,
+				EAB8B8831C756FAF00417396 /* banks_unh.mp3 */,
+				EAB8B8841C756FAF00417396 /* banks_yeah.mp3 */,
+				EAB8B8851C756FAF00417396 /* beanie_mac.mp3 */,
+				EAB8B8861C756FAF00417396 /* bigboi_1.mp3 */,
+				EAB8B8871C756FAF00417396 /* biggie_1.mp3 */,
+				EAB8B8881C756FAF00417396 /* biggie_2.mp3 */,
+				EAB8B8891C756FAF00417396 /* bigl_3.mp3 */,
+				EAB8B88A1C756FAF00417396 /* bigl_4.mp3 */,
+				EAB8B88B1C756FAF00417396 /* bigl_5.mp3 */,
+				EAB8B88C1C756FAF00417396 /* bigsean_boi2.mp3 */,
+				EAB8B88D1C756FAF00417396 /* bigsean_doit.mp3 */,
+				EAB8B88E1C756FAF00417396 /* bigsean_holdup2.mp3 */,
+				EAB8B88F1C756FAF00417396 /* bigsean_ohgod.mp3 */,
+				EAB8B8901C756FAF00417396 /* bigsean_okay.mp3 */,
+				EAB8B8911C756FAF00417396 /* bigsean_stop.mp3 */,
+				EAB8B8921C756FAF00417396 /* bigsean_whoa.mp3 */,
+				EAB8B8931C756FAF00417396 /* bigsean_whoathere.mp3 */,
+				EAB8B8941C756FAF00417396 /* birdman_1.mp3 */,
+				EAB8B8951C756FAF00417396 /* birdman_4.mp3 */,
+				EAB8B8961C756FAF00417396 /* birdman_6.mp3 */,
+				EAB8B8971C756FAF00417396 /* birdman_10.mp3 */,
+				EAB8B8981C756FAF00417396 /* birdman_16.mp3 */,
+				EAB8B8991C756FAF00417396 /* bowwow_yeah.mp3 */,
+				EAB8B89A1C756FAF00417396 /* bunb_ugk4life.mp3 */,
+				EAB8B89B1C756FAF00417396 /* busta_1.mp3 */,
+				EAB8B89C1C756FAF00417396 /* busta_2.mp3 */,
+				EAB8B89D1C756FAF00417396 /* busta_5.mp3 */,
+				EAB8B89E1C756FAF00417396 /* busta_6.mp3 */,
+				EAB8B89F1C756FAF00417396 /* camron_1.mp3 */,
+				EAB8B8A01C756FAF00417396 /* camron_2.mp3 */,
+				EAB8B8A11C756FAF00417396 /* chingy_1.mp3 */,
+				EAB8B8A21C756FAF00417396 /* currensy_1.mp3 */,
+				EAB8B8A31C756FAF00417396 /* dabrat_comeon.mp3 */,
+				EAB8B8A41C756FAF00417396 /* dabrat_lookout.mp3 */,
+				EAB8B8A51C756FAF00417396 /* dabrat_oh.mp3 */,
+				EAB8B8A61C756FAF00417396 /* danny_stop.mp3 */,
+				EAB8B8A71C756FAF00417396 /* danny_yeah.mp3 */,
+				EAB8B8A81C756FAF00417396 /* dannybrown_laugh2.mp3 */,
+				EAB8B8A91C756FAF00417396 /* davidbanner_5.mp3 */,
+				EAB8B8AA1C756FAF00417396 /* diddy_1.mp3 */,
+				EAB8B8AB1C756FAF00417396 /* diddy_3.mp3 */,
+				EAB8B8AC1C756FAF00417396 /* diddy_4.mp3 */,
+				EAB8B8AD1C756FAF00417396 /* diddy_5.mp3 */,
+				EAB8B8AE1C756FAF00417396 /* diddy_6.mp3 */,
+				EAB8B8AF1C756FAF00417396 /* diddy_7.mp3 */,
+				EAB8B8B01C756FAF00417396 /* dizzee_1.mp3 */,
+				EAB8B8B11C756FAF00417396 /* djkhaled_2.mp3 */,
+				EAB8B8B21C756FAF00417396 /* djkhaled_3.mp3 */,
+				EAB8B8B31C756FAF00417396 /* djpaul_2.mp3 */,
+				EAB8B8B41C756FAF00417396 /* djpaul_3.mp3 */,
+				EAB8B8B51C756FAF00417396 /* djpaul_9.mp3 */,
+				EAB8B8B61C756FAF00417396 /* dmx_1.mp3 */,
+				EAB8B8B71C756FAF00417396 /* dmx_3.mp3 */,
+				EAB8B8B81C756FAF00417396 /* dmx_6.mp3 */,
+				EAB8B8B91C756FAF00417396 /* dmx_7.mp3 */,
+				EAB8B8BA1C756FAF00417396 /* drake_2.mp3 */,
+				EAB8B8BB1C756FAF00417396 /* drake_3.mp3 */,
+				EAB8B8BC1C756FAF00417396 /* drake_4.mp3 */,
+				EAB8B8BD1C756FAF00417396 /* drake_5.mp3 */,
+				EAB8B8BE1C756FAF00417396 /* drummaboy_1.mp3 */,
+				EAB8B8BF1C756FAF00417396 /* e40_1.mp3 */,
+				EAB8B8C01C756FAF00417396 /* e40_2.mp3 */,
+				EAB8B8C11C756FAF00417396 /* eazye_1.mp3 */,
+				EAB8B8C21C756FAF00417396 /* eminem_3.mp3 */,
+				EAB8B8C31C756FAF00417396 /* eminem_4.mp3 */,
+				EAB8B8C41C756FAF00417396 /* fatjoe_1.mp3 */,
+				EAB8B8C51C756FAF00417396 /* fatjoe_5.mp3 */,
+				EAB8B8C61C756FAF00417396 /* fatjoe_9.mp3 */,
+				EAB8B8C71C756FAF00417396 /* flava_1.mp3 */,
+				EAB8B8C81C756FAF00417396 /* freeway_1.mp3 */,
+				EAB8B8C91C756FAF00417396 /* french_1.mp3 */,
+				EAB8B8CA1C756FAF00417396 /* ghostface_yo.mp3 */,
+				EAB8B8CB1C756FAF00417396 /* grandmaster_1.mp3 */,
+				EAB8B8CC1C756FAF00417396 /* gucci_1.mp3 */,
+				EAB8B8CD1C756FAF00417396 /* gucci_4.mp3 */,
+				EAB8B8CE1C756FAF00417396 /* gucci_8.mp3 */,
+				EAB8B8CF1C756FAF00417396 /* gucci_9.mp3 */,
+				EAB8B8D01C756FAF00417396 /* gucci_14.mp3 */,
+				EAB8B8D11C756FAF00417396 /* hurricanechris_1.mp3 */,
+				EAB8B8D21C756FAF00417396 /* icecube_1.mp3 */,
+				EAB8B8D31C756FAF00417396 /* inspectahdeck_killahill.mp3 */,
+				EAB8B8D41C756FAF00417396 /* jadakiss_3.mp3 */,
+				EAB8B8D51C756FAF00417396 /* jarule_1.mp3 */,
+				EAB8B8D61C756FAF00417396 /* jarule_2.mp3 */,
+				EAB8B8D71C756FAF00417396 /* jayz_1.mp3 */,
+				EAB8B8D81C756FAF00417396 /* jayz_7.mp3 */,
+				EAB8B8D91C756FAF00417396 /* jayz_9.mp3 */,
+				EAB8B8DA1C756FAF00417396 /* jayz_itsthero.mp3 */,
+				EAB8B8DB1C756FAF00417396 /* jayz_itsyoboy.mp3 */,
+				EAB8B8DC1C756FAF00417396 /* jayz_jiggaman.mp3 */,
+				EAB8B8DD1C756FAF00417396 /* jayz_woo.mp3 */,
+				EAB8B8DE1C756FAF00417396 /* jayz_yessir.mp3 */,
+				EAB8B8DF1C756FAF00417396 /* jayz_young.mp3 */,
+				EAB8B8E01C756FAF00417396 /* jayz5.mp3 */,
+				EAB8B8E11C756FAF00417396 /* jayz7.mp3 */,
+				EAB8B8E21C756FAF00417396 /* jayz8.mp3 */,
+				EAB8B8E31C756FAF00417396 /* jazzypha_1.mp3 */,
+				EAB8B8E41C756FAF00417396 /* jeezy_1.mp3 */,
+				EAB8B8E51C756FAF00417396 /* jeezy_10.mp3 */,
+				EAB8B8E61C756FAF00417396 /* jeezy_11.mp3 */,
+				EAB8B8E71C756FAF00417396 /* jermaine_unh.mp3 */,
+				EAB8B8E81C756FAF00417396 /* jones_8.mp3 */,
+				EAB8B8E91C756FAF00417396 /* jones_14.mp3 */,
+				EAB8B8EA1C756FAF00417396 /* juelz_2.mp3 */,
+				EAB8B8EB1C756FAF00417396 /* juicyj_1.mp3 */,
+				EAB8B8EC1C756FAF00417396 /* juicyj_7.mp3 */,
+				EAB8B8ED1C756FAF00417396 /* juicyj_8.mp3 */,
+				EAB8B8EE1C756FAF00417396 /* juicyj_9.mp3 */,
+				EAB8B8EF1C756FAF00417396 /* juicyj_10.mp3 */,
+				EAB8B8F01C756FAF00417396 /* kanye_1.mp3 */,
+				EAB8B8F11C756FAF00417396 /* keef_bang.mp3 */,
+				EAB8B8F21C756FAF00417396 /* keef_catchup.mp3 */,
+				EAB8B8F31C756FAF00417396 /* killermike_2.mp3 */,
+				EAB8B8F41C756FAF00417396 /* killermike_3.mp3 */,
+				EAB8B8F51C756FAF00417396 /* krsone_1.mp3 */,
+				EAB8B8F61C756FAF00417396 /* lilb_1.mp3 */,
+				EAB8B8F71C756FAF00417396 /* lilb_2.mp3 */,
+				EAB8B8F81C756FAF00417396 /* liljon_2.mp3 */,
+				EAB8B8F91C756FAF00417396 /* liljon_3.mp3 */,
+				EAB8B8FA1C756FAF00417396 /* liljon_4.mp3 */,
+				EAB8B8FB1C756FAF00417396 /* liljon_8.mp3 */,
+				EAB8B8FC1C756FAF00417396 /* lilscrappy_1.mp3 */,
+				EAB8B8FD1C756FAF00417396 /* ludacris_2.mp3 */,
+				EAB8B8FE1C756FAF00417396 /* ludacris_woo.mp3 */,
+				EAB8B8FF1C756FAF00417396 /* mannie_1.mp3 */,
+				EAB8B9001C756FAF00417396 /* mannie_2.mp3 */,
+				EAB8B9011C756FAF00417396 /* mceiht_1.mp3 */,
+				EAB8B9021C756FAF00417396 /* mchammer_1.mp3 */,
+				EAB8B9031C756FAF00417396 /* methodman_1.mp3 */,
+				EAB8B9041C756FAF00417396 /* methodman_tical.mp3 */,
+				EAB8B9051C756FAF00417396 /* methodman_yo.mp3 */,
+				EAB8B9061C756FAF00417396 /* mikejones_2.mp3 */,
+				EAB8B9071C756FAF00417396 /* mikejones_iceage.mp3 */,
+				EAB8B9081C756FAF00417396 /* mikejones_jyeah.mp3 */,
+				EAB8B9091C756FAF00417396 /* mop_1.mp3 */,
+				EAB8B90A1C756FAF00417396 /* mop_2.mp3 */,
+				EAB8B90B1C756FAF00417396 /* nas_1.mp3 */,
+				EAB8B90C1C756FAF00417396 /* nas_3.mp3 */,
+				EAB8B90D1C756FAF00417396 /* nas_6.mp3 */,
+				EAB8B90E1C756FAF00417396 /* natedogg_1.mp3 */,
+				EAB8B90F1C756FAF00417396 /* nore_1.mp3 */,
+				EAB8B9101C756FAF00417396 /* odb_shimmy.mp3 */,
+				EAB8B9111C756FAF00417396 /* odb_yo.mp3 */,
+				EAB8B9121C756FAF00417396 /* oj_4.mp3 */,
+				EAB8B9131C756FAF00417396 /* pharrell_1.mp3 */,
+				EAB8B9141C756FAF00417396 /* pharrell_2.mp3 */,
+				EAB8B9151C756FAF00417396 /* pill_1.mp3 */,
+				EAB8B9161C756FAF00417396 /* pimpc_1.mp3 */,
+				EAB8B9171C756FAF00417396 /* pimpc_4.mp3 */,
+				EAB8B9181C756FAF00417396 /* pimpc_sweetjones3.mp3 */,
+				EAB8B9191C756FAF00417396 /* pitbull_1.mp3 */,
+				EAB8B91A1C756FAF00417396 /* pitbull_2.mp3 */,
+				EAB8B91B1C756FAF00417396 /* pitbull_3.mp3 */,
+				EAB8B91C1C756FAF00417396 /* pitbull_6.mp3 */,
+				EAB8B91D1C756FAF00417396 /* projectpat_1.mp3 */,
+				EAB8B91E1C756FAF00417396 /* pushat_1.mp3 */,
+				EAB8B91F1C756FAF00417396 /* pushat_haha.mp3 */,
+				EAB8B9201C756FAF00417396 /* pushat_unh.mp3 */,
+				EAB8B9211C756FAF00417396 /* raekwon_yo.mp3 */,
+				EAB8B9221C756FAF00417396 /* redman_heyo.mp3 */,
+				EAB8B9231C756FAF00417396 /* ross_1.mp3 */,
+				EAB8B9241C756FAF00417396 /* ross_2.mp3 */,
+				EAB8B9251C756FAF00417396 /* ross_4.mp3 */,
+				EAB8B9261C756FAF00417396 /* ross_woo.mp3 */,
+				EAB8B9271C756FAF00417396 /* seanprice_1.mp3 */,
+				EAB8B9281C756FAF00417396 /* snoop_1.mp3 */,
+				EAB8B9291C756FAF00417396 /* snoop_4.mp3 */,
+				EAB8B92A1C756FAF00417396 /* snoop_5.mp3 */,
+				EAB8B92B1C756FAF00417396 /* soulja_2.mp3 */,
+				EAB8B92C1C756FAF00417396 /* soulja_4.mp3 */,
+				EAB8B92D1C756FAF00417396 /* soulja_5.mp3 */,
+				EAB8B92E1C756FAF00417396 /* swizz_1.mp3 */,
+				EAB8B92F1C756FAF00417396 /* swizz_goddamit.mp3 */,
+				EAB8B9301C756FAF00417396 /* thugga_2.mp3 */,
+				EAB8B9311C756FAF00417396 /* thugga_3.mp3 */,
+				EAB8B9321C756FAF00417396 /* ti_2.mp3 */,
+				EAB8B9331C756FAF00417396 /* ti_3.mp3 */,
+				EAB8B9341C756FAF00417396 /* ti_5.mp3 */,
+				EAB8B9351C756FAF00417396 /* ti_22.mp3 */,
+				EAB8B9361C756FAF00417396 /* ti_32.mp3 */,
+				EAB8B9371C756FAF00417396 /* tooshort_1.mp3 */,
+				EAB8B9381C756FAF00417396 /* tpain_2.mp3 */,
+				EAB8B9391C756FAF00417396 /* tpain1.mp3 */,
+				EAB8B93A1C756FAF00417396 /* treysongz_4.mp3 */,
+				EAB8B93B1C756FAF00417396 /* trick_1.mp3 */,
+				EAB8B93C1C756FAF00417396 /* trick_2.mp3 */,
+				EAB8B93D1C756FAF00417396 /* trick_4.mp3 */,
+				EAB8B93E1C756FAF00417396 /* tyga_unh.mp3 */,
+				EAB8B93F1C756FAF00417396 /* vado_1.mp3 */,
+				EAB8B9401C756FAF00417396 /* waka_1.mp3 */,
+				EAB8B9411C756FAF00417396 /* waka_8.mp3 */,
+				EAB8B9421C756FAF00417396 /* weezy_4.mp3 */,
+				EAB8B9431C756FAF00417396 /* weezy_14.mp3 */,
+				EAB8B9441C756FAF00417396 /* weezy_16.mp3 */,
+				EAB8B9451C756FAF00417396 /* weezy_17.mp3 */,
+				EAB8B9461C756FAF00417396 /* weezy_22.mp3 */,
+				EAB8B9471C756FAF00417396 /* weezy_25.mp3 */,
+				EAB8B9481C756FAF00417396 /* weezy_29.mp3 */,
+				EAB8B9491C756FAF00417396 /* weezy_30.mp3 */,
+				EAB8B94A1C756FAF00417396 /* weezy_31.mp3 */,
+				EAB8B94B1C756FAF00417396 /* willsmith_1.mp3 */,
+				EAB8B94C1C756FAF00417396 /* willsmith_2.mp3 */,
+				EAB8B94D1C756FAF00417396 /* willsmith_3.mp3 */,
+				EAB8B94E1C756FAF00417396 /* wiz_1.mp3 */,
+				EAB8B94F1C756FAF00417396 /* wiz_unh.mp3 */,
 			);
 			path = sounds;
 			sourceTree = "<group>";
@@ -355,12 +1006,229 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB8BA0C1C756FAF00417396 /* ti_2.mp3 in Resources */,
+				EAB8B9D31C756FAF00417396 /* liljon_3.mp3 in Resources */,
+				EAB8B9531C756FAF00417396 /* 2pac_5.mp3 in Resources */,
+				EAB8BA081C756FAF00417396 /* swizz_1.mp3 in Resources */,
+				EAB8BA031C756FAF00417396 /* snoop_4.mp3 in Resources */,
+				EAB8B99A1C756FAF00417396 /* e40_2.mp3 in Resources */,
+				EAB8B9F31C756FAF00417396 /* pitbull_1.mp3 in Resources */,
+				EAB8B9FC1C756FAF00417396 /* redman_heyo.mp3 in Resources */,
+				EAB8B9A11C756FAF00417396 /* flava_1.mp3 in Resources */,
+				EAB8B9DB1C756FAF00417396 /* mceiht_1.mp3 in Resources */,
+				EAB8B97F1C756FAF00417396 /* dabrat_oh.mp3 in Resources */,
+				EAB8B9FD1C756FAF00417396 /* ross_1.mp3 in Resources */,
+				EAB8B9911C756FAF00417396 /* dmx_3.mp3 in Resources */,
+				EAB8B9861C756FAF00417396 /* diddy_4.mp3 in Resources */,
+				EAB8B95A1C756FAF00417396 /* action_yeah.mp3 in Resources */,
+				EAB8B9661C756FAF00417396 /* bigsean_boi2.mp3 in Resources */,
+				EAB8B9501C756FAF00417396 /* 2chainz_1.mp3 in Resources */,
+				EAB8B95B1C756FAF00417396 /* action_yo.mp3 in Resources */,
+				EAB8B9791C756FAF00417396 /* camron_1.mp3 in Resources */,
+				EAB8BA0E1C756FAF00417396 /* ti_5.mp3 in Resources */,
+				EAB8BA021C756FAF00417396 /* snoop_1.mp3 in Resources */,
+				EAB8B9CF1C756FAF00417396 /* krsone_1.mp3 in Resources */,
+				EAB8B9B81C756FAF00417396 /* jayz_yessir.mp3 in Resources */,
+				EAB8B9F61C756FAF00417396 /* pitbull_6.mp3 in Resources */,
+				EAB8B9C51C756FAF00417396 /* juicyj_1.mp3 in Resources */,
+				EAB8B9FE1C756FAF00417396 /* ross_2.mp3 in Resources */,
+				EAB8B9521C756FAF00417396 /* 2pac_4.mp3 in Resources */,
+				EAB8B9871C756FAF00417396 /* diddy_5.mp3 in Resources */,
+				EAB8B9D61C756FAF00417396 /* lilscrappy_1.mp3 in Resources */,
+				EAB8B99F1C756FAF00417396 /* fatjoe_5.mp3 in Resources */,
+				EAB8B95C1C756FAF00417396 /* akon_1.mp3 in Resources */,
+				EAB8B99C1C756FAF00417396 /* eminem_3.mp3 in Resources */,
+				EAB8B9811C756FAF00417396 /* danny_yeah.mp3 in Resources */,
+				EAB8B9EA1C756FAF00417396 /* odb_shimmy.mp3 in Resources */,
+				EAB8B9981C756FAF00417396 /* drummaboy_1.mp3 in Resources */,
+				EAB8B96C1C756FAF00417396 /* bigsean_whoa.mp3 in Resources */,
+				EAB8B9CE1C756FAF00417396 /* killermike_3.mp3 in Resources */,
+				EAB8B9F11C756FAF00417396 /* pimpc_4.mp3 in Resources */,
+				EAB8B9CD1C756FAF00417396 /* killermike_2.mp3 in Resources */,
+				EAB8B9851C756FAF00417396 /* diddy_3.mp3 in Resources */,
+				EAB8B9D01C756FAF00417396 /* lilb_1.mp3 in Resources */,
+				EAB8BA191C756FAF00417396 /* vado_1.mp3 in Resources */,
+				EAB8B9941C756FAF00417396 /* drake_2.mp3 in Resources */,
+				EAB8B96F1C756FAF00417396 /* birdman_4.mp3 in Resources */,
+				EAB8B9D91C756FAF00417396 /* mannie_1.mp3 in Resources */,
+				EAB8BA0B1C756FAF00417396 /* thugga_3.mp3 in Resources */,
+				EAB8B9AB1C756FAF00417396 /* hurricanechris_1.mp3 in Resources */,
+				EAB8B9EF1C756FAF00417396 /* pill_1.mp3 in Resources */,
+				EAB8B9B91C756FAF00417396 /* jayz_young.mp3 in Resources */,
+				EAB8B99D1C756FAF00417396 /* eminem_4.mp3 in Resources */,
+				EAB8B9A81C756FAF00417396 /* gucci_8.mp3 in Resources */,
+				EAB8B96E1C756FAF00417396 /* birdman_1.mp3 in Resources */,
+				EAB8B9B51C756FAF00417396 /* jayz_itsyoboy.mp3 in Resources */,
+				EAB8BA151C756FAF00417396 /* trick_1.mp3 in Resources */,
+				EAB8B9EE1C756FAF00417396 /* pharrell_2.mp3 in Resources */,
+				EAB8B9C61C756FAF00417396 /* juicyj_7.mp3 in Resources */,
+				EAB8B9B31C756FAF00417396 /* jayz_9.mp3 in Resources */,
+				EAB8B9881C756FAF00417396 /* diddy_6.mp3 in Resources */,
+				EAB8B99E1C756FAF00417396 /* fatjoe_1.mp3 in Resources */,
+				EAB8B9E51C756FAF00417396 /* nas_1.mp3 in Resources */,
+				EAB8BA041C756FAF00417396 /* snoop_5.mp3 in Resources */,
+				EAB8BA141C756FAF00417396 /* treysongz_4.mp3 in Resources */,
+				EAB8B9571C756FAF00417396 /* 50_11.mp3 in Resources */,
+				EAB8B99B1C756FAF00417396 /* eazye_1.mp3 in Resources */,
+				EAB8BA1F1C756FAF00417396 /* weezy_17.mp3 in Resources */,
+				EAB8BA1E1C756FAF00417396 /* weezy_16.mp3 in Resources */,
+				EAB8BA1C1C756FAF00417396 /* weezy_4.mp3 in Resources */,
+				EAB8B96B1C756FAF00417396 /* bigsean_stop.mp3 in Resources */,
+				EAB8BA271C756FAF00417396 /* willsmith_3.mp3 in Resources */,
 				A7CAEE251C7288C900DAAFC0 /* Info.plist in Resources */,
-				A7CAEE481C72DCDA00DAAFC0 /* kanye.mp3 in Resources */,
+				EAB8BA251C756FAF00417396 /* willsmith_1.mp3 in Resources */,
+				EAB8B9A21C756FAF00417396 /* freeway_1.mp3 in Resources */,
+				EAB8B9C11C756FAF00417396 /* jermaine_unh.mp3 in Resources */,
+				EAB8B9E71C756FAF00417396 /* nas_6.mp3 in Resources */,
+				EAB8B98E1C756FAF00417396 /* djpaul_3.mp3 in Resources */,
+				EAB8B9AD1C756FAF00417396 /* inspectahdeck_killahill.mp3 in Resources */,
+				EAB8B9651C756FAF00417396 /* bigl_5.mp3 in Resources */,
+				EAB8BA161C756FAF00417396 /* trick_2.mp3 in Resources */,
 				A7CAEDD51C72761D00DAAFC0 /* LaunchScreen.storyboard in Resources */,
+				EAB8BA1D1C756FAF00417396 /* weezy_14.mp3 in Resources */,
+				EAB8BA091C756FAF00417396 /* swizz_goddamit.mp3 in Resources */,
+				EAB8B9E91C756FAF00417396 /* nore_1.mp3 in Resources */,
+				EAB8B9581C756FAF00417396 /* 50cent_2.mp3 in Resources */,
+				EAB8B9621C756FAF00417396 /* biggie_2.mp3 in Resources */,
+				EAB8B9DE1C756FAF00417396 /* methodman_tical.mp3 in Resources */,
+				EAB8B9831C756FAF00417396 /* davidbanner_5.mp3 in Resources */,
+				EAB8B9601C756FAF00417396 /* bigboi_1.mp3 in Resources */,
+				EAB8B9C91C756FAF00417396 /* juicyj_10.mp3 in Resources */,
+				EAB8B9741C756FAF00417396 /* bunb_ugk4life.mp3 in Resources */,
+				EAB8B9BF1C756FAF00417396 /* jeezy_10.mp3 in Resources */,
+				EAB8B9991C756FAF00417396 /* e40_1.mp3 in Resources */,
+				EAB8B9DD1C756FAF00417396 /* methodman_1.mp3 in Resources */,
+				EAB8B95D1C756FAF00417396 /* banks_unh.mp3 in Resources */,
+				EAB8B9E11C756FAF00417396 /* mikejones_iceage.mp3 in Resources */,
+				EAB8BA171C756FAF00417396 /* trick_4.mp3 in Resources */,
+				EAB8B97D1C756FAF00417396 /* dabrat_comeon.mp3 in Resources */,
+				EAB8B9E81C756FAF00417396 /* natedogg_1.mp3 in Resources */,
+				EAB8B9931C756FAF00417396 /* dmx_7.mp3 in Resources */,
+				EAB8BA001C756FAF00417396 /* ross_woo.mp3 in Resources */,
+				EAB8B9951C756FAF00417396 /* drake_3.mp3 in Resources */,
+				EAB8B9C01C756FAF00417396 /* jeezy_11.mp3 in Resources */,
+				EAB8B9711C756FAF00417396 /* birdman_10.mp3 in Resources */,
+				EAB8B9F21C756FAF00417396 /* pimpc_sweetjones3.mp3 in Resources */,
+				EAB8B9BE1C756FAF00417396 /* jeezy_1.mp3 in Resources */,
+				EAB8B9E21C756FAF00417396 /* mikejones_jyeah.mp3 in Resources */,
+				EAB8B9691C756FAF00417396 /* bigsean_ohgod.mp3 in Resources */,
+				EAB8B96D1C756FAF00417396 /* bigsean_whoathere.mp3 in Resources */,
+				EAB8B9D81C756FAF00417396 /* ludacris_woo.mp3 in Resources */,
+				EAB8B98F1C756FAF00417396 /* djpaul_9.mp3 in Resources */,
+				EAB8BA101C756FAF00417396 /* ti_32.mp3 in Resources */,
+				EAB8B9891C756FAF00417396 /* diddy_7.mp3 in Resources */,
+				EAB8B9F51C756FAF00417396 /* pitbull_3.mp3 in Resources */,
+				EAB8B9771C756FAF00417396 /* busta_5.mp3 in Resources */,
+				EAB8B9701C756FAF00417396 /* birdman_6.mp3 in Resources */,
+				EAB8BA221C756FAF00417396 /* weezy_29.mp3 in Resources */,
+				EAB8B9BA1C756FAF00417396 /* jayz5.mp3 in Resources */,
+				EAB8B9591C756FAF00417396 /* action_bronsolino.mp3 in Resources */,
+				EAB8B9731C756FAF00417396 /* bowwow_yeah.mp3 in Resources */,
+				EAB8B9B11C756FAF00417396 /* jayz_1.mp3 in Resources */,
+				EAB8B98A1C756FAF00417396 /* dizzee_1.mp3 in Resources */,
+				EAB8B9DF1C756FAF00417396 /* methodman_yo.mp3 in Resources */,
+				EAB8B9551C756FAF00417396 /* 50_5.mp3 in Resources */,
+				EAB8B9D21C756FAF00417396 /* liljon_2.mp3 in Resources */,
+				EAB8B9D11C756FAF00417396 /* lilb_2.mp3 in Resources */,
+				EAB8B9FB1C756FAF00417396 /* raekwon_yo.mp3 in Resources */,
+				EAB8B9C71C756FAF00417396 /* juicyj_8.mp3 in Resources */,
+				EAB8B9A41C756FAF00417396 /* ghostface_yo.mp3 in Resources */,
+				EAB8B9DA1C756FAF00417396 /* mannie_2.mp3 in Resources */,
+				EAB8B9ED1C756FAF00417396 /* pharrell_1.mp3 in Resources */,
+				EAB8B9F81C756FAF00417396 /* pushat_1.mp3 in Resources */,
+				EAB8BA0D1C756FAF00417396 /* ti_3.mp3 in Resources */,
+				EAB8B97E1C756FAF00417396 /* dabrat_lookout.mp3 in Resources */,
+				EAB8BA261C756FAF00417396 /* willsmith_2.mp3 in Resources */,
+				EAB8B9D41C756FAF00417396 /* liljon_4.mp3 in Resources */,
+				EAB8B9E31C756FAF00417396 /* mop_1.mp3 in Resources */,
+				EAB8B9AC1C756FAF00417396 /* icecube_1.mp3 in Resources */,
+				EAB8BA181C756FAF00417396 /* tyga_unh.mp3 in Resources */,
+				EAB8B9C21C756FAF00417396 /* jones_8.mp3 in Resources */,
+				EAB8B9F71C756FAF00417396 /* projectpat_1.mp3 in Resources */,
+				EAB8B9C31C756FAF00417396 /* jones_14.mp3 in Resources */,
+				EAB8B9E41C756FAF00417396 /* mop_2.mp3 in Resources */,
+				EAB8B9F41C756FAF00417396 /* pitbull_2.mp3 in Resources */,
+				EAB8B9561C756FAF00417396 /* 50_8.mp3 in Resources */,
+				EAB8B9E61C756FAF00417396 /* nas_3.mp3 in Resources */,
+				EAB8B97B1C756FAF00417396 /* chingy_1.mp3 in Resources */,
 				A7CAEDD21C72761D00DAAFC0 /* Assets.xcassets in Resources */,
+				EAB8B9EB1C756FAF00417396 /* odb_yo.mp3 in Resources */,
+				EAB8B9CC1C756FAF00417396 /* keef_catchup.mp3 in Resources */,
+				EAB8BA1A1C756FAF00417396 /* waka_1.mp3 in Resources */,
+				EAB8B9C41C756FAF00417396 /* juelz_2.mp3 in Resources */,
+				EAB8B9CB1C756FAF00417396 /* keef_bang.mp3 in Resources */,
+				EAB8B9641C756FAF00417396 /* bigl_4.mp3 in Resources */,
+				EAB8B95F1C756FAF00417396 /* beanie_mac.mp3 in Resources */,
+				EAB8B9961C756FAF00417396 /* drake_4.mp3 in Resources */,
+				EAB8B9511C756FAF00417396 /* 2chainz_yeah2.mp3 in Resources */,
+				EAB8B9C81C756FAF00417396 /* juicyj_9.mp3 in Resources */,
+				EAB8B9BB1C756FAF00417396 /* jayz7.mp3 in Resources */,
+				EAB8BA061C756FAF00417396 /* soulja_4.mp3 in Resources */,
+				EAB8BA231C756FAF00417396 /* weezy_30.mp3 in Resources */,
+				EAB8B9D71C756FAF00417396 /* ludacris_2.mp3 in Resources */,
+				EAB8B9671C756FAF00417396 /* bigsean_doit.mp3 in Resources */,
+				EAB8B9721C756FAF00417396 /* birdman_16.mp3 in Resources */,
+				EAB8B9681C756FAF00417396 /* bigsean_holdup2.mp3 in Resources */,
+				EAB8B9541C756FAF00417396 /* 2pac_6.mp3 in Resources */,
+				EAB8B96A1C756FAF00417396 /* bigsean_okay.mp3 in Resources */,
+				EAB8B9841C756FAF00417396 /* diddy_1.mp3 in Resources */,
+				EAB8BA121C756FAF00417396 /* tpain_2.mp3 in Resources */,
+				EAB8BA211C756FAF00417396 /* weezy_25.mp3 in Resources */,
+				EAB8B9AF1C756FAF00417396 /* jarule_1.mp3 in Resources */,
+				EAB8BA281C756FAF00417396 /* wiz_1.mp3 in Resources */,
+				EAB8B9A01C756FAF00417396 /* fatjoe_9.mp3 in Resources */,
+				EAB8B9761C756FAF00417396 /* busta_2.mp3 in Resources */,
+				EAB8BA011C756FAF00417396 /* seanprice_1.mp3 in Resources */,
+				EAB8BA1B1C756FAF00417396 /* waka_8.mp3 in Resources */,
+				EAB8B9781C756FAF00417396 /* busta_6.mp3 in Resources */,
+				EAB8B9801C756FAF00417396 /* danny_stop.mp3 in Resources */,
+				EAB8B9EC1C756FAF00417396 /* oj_4.mp3 in Resources */,
+				EAB8B95E1C756FAF00417396 /* banks_yeah.mp3 in Resources */,
 				A7CAEDCD1C72761D00DAAFC0 /* Main.storyboard in Resources */,
+				EAB8B9A61C756FAF00417396 /* gucci_1.mp3 in Resources */,
+				EAB8BA0A1C756FAF00417396 /* thugga_2.mp3 in Resources */,
+				EAB8BA071C756FAF00417396 /* soulja_5.mp3 in Resources */,
+				EAB8B9B41C756FAF00417396 /* jayz_itsthero.mp3 in Resources */,
+				EAB8B9B61C756FAF00417396 /* jayz_jiggaman.mp3 in Resources */,
+				EAB8B9D51C756FAF00417396 /* liljon_8.mp3 in Resources */,
+				EAB8B97A1C756FAF00417396 /* camron_2.mp3 in Resources */,
+				EAB8B9B21C756FAF00417396 /* jayz_7.mp3 in Resources */,
+				EAB8B9F91C756FAF00417396 /* pushat_haha.mp3 in Resources */,
+				EAB8BA201C756FAF00417396 /* weezy_22.mp3 in Resources */,
+				EAB8B9E01C756FAF00417396 /* mikejones_2.mp3 in Resources */,
+				EAB8B9921C756FAF00417396 /* dmx_6.mp3 in Resources */,
+				EAB8B9F01C756FAF00417396 /* pimpc_1.mp3 in Resources */,
+				EAB8BA131C756FAF00417396 /* tpain1.mp3 in Resources */,
+				EAB8B98B1C756FAF00417396 /* djkhaled_2.mp3 in Resources */,
+				EAB8B9611C756FAF00417396 /* biggie_1.mp3 in Resources */,
+				EAB8BA051C756FAF00417396 /* soulja_2.mp3 in Resources */,
+				EAB8B9A31C756FAF00417396 /* french_1.mp3 in Resources */,
+				EAB8B9A71C756FAF00417396 /* gucci_4.mp3 in Resources */,
+				EAB8B9751C756FAF00417396 /* busta_1.mp3 in Resources */,
+				EAB8BA241C756FAF00417396 /* weezy_31.mp3 in Resources */,
+				EAB8B9971C756FAF00417396 /* drake_5.mp3 in Resources */,
+				EAB8B98C1C756FAF00417396 /* djkhaled_3.mp3 in Resources */,
+				EAB8B9CA1C756FAF00417396 /* kanye_1.mp3 in Resources */,
+				EAB8BA111C756FAF00417396 /* tooshort_1.mp3 in Resources */,
+				EAB8BA291C756FAF00417396 /* wiz_unh.mp3 in Resources */,
+				EAB8B9901C756FAF00417396 /* dmx_1.mp3 in Resources */,
+				EAB8B9B01C756FAF00417396 /* jarule_2.mp3 in Resources */,
+				EAB8B98D1C756FAF00417396 /* djpaul_2.mp3 in Resources */,
+				EAB8B9AE1C756FAF00417396 /* jadakiss_3.mp3 in Resources */,
+				EAB8B9BC1C756FAF00417396 /* jayz8.mp3 in Resources */,
+				EAB8BA0F1C756FAF00417396 /* ti_22.mp3 in Resources */,
+				EAB8B9DC1C756FAF00417396 /* mchammer_1.mp3 in Resources */,
+				EAB8B9B71C756FAF00417396 /* jayz_woo.mp3 in Resources */,
+				EAB8B9AA1C756FAF00417396 /* gucci_14.mp3 in Resources */,
+				EAB8B9A91C756FAF00417396 /* gucci_9.mp3 in Resources */,
+				EAB8B9631C756FAF00417396 /* bigl_3.mp3 in Resources */,
 				A7CAEE281C7288C900DAAFC0 /* LoadingView.xib in Resources */,
+				EAB8B9FA1C756FAF00417396 /* pushat_unh.mp3 in Resources */,
+				EAB8B97C1C756FAF00417396 /* currensy_1.mp3 in Resources */,
+				EAB8B9A51C756FAF00417396 /* grandmaster_1.mp3 in Resources */,
+				EAB8B9BD1C756FAF00417396 /* jazzypha_1.mp3 in Resources */,
+				EAB8B9FF1C756FAF00417396 /* ross_4.mp3 in Resources */,
+				EAB8B9821C756FAF00417396 /* dannybrown_laugh2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,10 +1426,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RapBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = arnie.RapBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -569,10 +1440,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RapBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = arnie.RapBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -643,6 +1517,7 @@
 				A7CAEDF11C72761E00DAAFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7CAEDF21C72761E00DAAFC0 /* Build configuration list for PBXNativeTarget "RapBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -651,6 +1526,7 @@
 				A7CAEDF41C72761E00DAAFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7CAEDF51C72761E00DAAFC0 /* Build configuration list for PBXNativeTarget "RapBoardUITests" */ = {
 			isa = XCConfigurationList;
@@ -659,6 +1535,7 @@
 				A7CAEDF71C72761E00DAAFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

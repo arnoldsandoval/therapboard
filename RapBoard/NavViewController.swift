@@ -15,13 +15,10 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var filterButtonPopular: UIButton!
     @IBOutlet weak var filterButtonFavorites: UIButton!
     @IBOutlet weak var emailButton: UIButton!
-
-//  Some other ideas for filters...
-//    @IBOutlet weak var filterButtonExplicit: UIButton!
-//    @IBOutlet weak var filterButtonClean: UIButton!
-//    @IBOutlet weak var filterButtonClassics: UIButton!
-    
-    
+    @IBOutlet weak var switchMostPopular: UISwitch!
+    @IBOutlet weak var switchMyFavorites: UISwitch!
+    @IBOutlet weak var switchExplicit: UISwitch!
+    @IBOutlet weak var switchNames: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +27,22 @@ class MenuViewController: UIViewController {
 
         menuView.autostart = true
         menuView.animation = "slideRight"
-        
+            
+        let defaults = NSUserDefaults.standardUserDefaults()
+    
+        if (defaults.objectForKey("ShowMostPopular") != nil) {
+            switchMostPopular.on = defaults.boolForKey("ShowMostPopular")
+        }
+        if (defaults.objectForKey("ShowFavorites") != nil) {
+            switchMyFavorites.on = defaults.boolForKey("ShowFavorites")
+        }
+        if (defaults.objectForKey("ShowExplicit") != nil) {
+            switchExplicit.on = defaults.boolForKey("ShowExplicit")
+        }
+        if (defaults.objectForKey("ShowNames") != nil) {
+            switchNames.on = defaults.boolForKey("ShowNames")
+        }
+
     }
     
     override func didReceiveMemoryWarning() {
@@ -42,8 +54,11 @@ class MenuViewController: UIViewController {
         menuView.animation = "slideRight"
         menuView.animateFrom = false
         menuView.animateToNext({
+            UIApplication.sharedApplication().sendAction("maximizeView", to: self.parentViewController, from: self, forEvent: nil)
+
             self.dismissViewControllerAnimated(false, completion: nil)
         })
+        
     }
     
     @IBAction func emailButtonDidTouch(sender: AnyObject) {
@@ -53,6 +68,40 @@ class MenuViewController: UIViewController {
         UIApplication.sharedApplication().openURL(url!)
     }
     
+    let defaults = NSUserDefaults.standardUserDefaults()
+    
+    
+    @IBAction func saveNameSwitchState(sender: AnyObject) {
+        if switchNames.on {
+            defaults.setBool(true, forKey: "ShowNames")
+        } else {
+            defaults.setBool(false, forKey: "ShowNames")
+        }
+    }
+    
+    @IBAction func saveNameSwitchState(sender: AnyObject) {
+        if switchNames.on {
+            defaults.setBool(true, forKey: "ShowNames")
+        } else {
+            defaults.setBool(false, forKey: "ShowNames")
+        }
+    }
+    
+    @IBAction func saveNameSwitchState(sender: AnyObject) {
+        if switchNames.on {
+            defaults.setBool(true, forKey: "ShowNames")
+        } else {
+            defaults.setBool(false, forKey: "ShowNames")
+        }
+    }
+    
+    @IBAction func saveNameSwitchState(sender: AnyObject) {
+        if switchNames.on {
+            defaults.setBool(true, forKey: "ShowNames")
+        } else {
+            defaults.setBool(false, forKey: "ShowNames")
+        }
+    }
     
     /*
     // MARK: - Navigation

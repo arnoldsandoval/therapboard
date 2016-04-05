@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qTz-ld-z1Z">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qTz-ld-z1Z">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -14,33 +15,50 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.73214370012283325" green="0.14867034554481506" blue="0.082063980400562286" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="tQZ-qQ-EnW">
-                            <size key="itemSize" width="100" height="100"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="tQZ-qQ-EnW">
+                            <size key="itemSize" width="100" height="130"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" contentMode="center" reuseIdentifier="Cell" id="INz-hL-QAl" customClass="SoundboardCollectionViewCell" customModule="RapBoard" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <rect key="frame" x="0.0" y="10" width="100" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="130"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HU3-Ho-pxD">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="105"/>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lcA-Nf-WDi">
+                                            <rect key="frame" x="8" y="0.0" width="84" height="33"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape-triangle" translatesAutoresizingMaskIntoConstraints="NO" id="iSU-Db-mAj" customClass="DesignableImageView" customModule="RapBoard" customModuleProvider="target">
+                                                    <rect key="frame" x="35" y="17" width="13" height="8"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BIG SEAN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="p0H-jW-zVP" customClass="DesignableLabel" customModule="RapBoard" customModuleProvider="target">
+                                                    <rect key="frame" x="7" y="0.0" width="70" height="19"/>
+                                                    <color key="backgroundColor" red="0.086274509803921567" green="0.6705882352941176" blue="0.79607843137254897" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HU3-Ho-pxD" customClass="DesignableImageView" customModule="RapBoard" customModuleProvider="target">
+                                            <rect key="frame" x="2" y="11" width="96" height="108.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="HU3-Ho-pxD" secondAttribute="height" multiplier="100:113" id="hV4-4w-n0S"/>
+                                            </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BIG SEAN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0H-jW-zVP" customClass="DesignableLabel" customModule="RapBoard" customModuleProvider="target">
-                                            <rect key="frame" x="15" y="77" width="70" height="23"/>
-                                            <color key="backgroundColor" red="0.0" green="0.86444061994552612" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="HU3-Ho-pxD" secondAttribute="trailing" constant="2" id="UWC-ia-94P"/>
+                                    <constraint firstItem="HU3-Ho-pxD" firstAttribute="centerY" secondItem="INz-hL-QAl" secondAttribute="centerY" id="dop-81-38a"/>
+                                    <constraint firstItem="HU3-Ho-pxD" firstAttribute="centerX" secondItem="INz-hL-QAl" secondAttribute="centerX" id="hnp-ua-3YV"/>
+                                    <constraint firstItem="HU3-Ho-pxD" firstAttribute="leading" secondItem="INz-hL-QAl" secondAttribute="leading" constant="2" id="wsg-yJ-o5I"/>
+                                </constraints>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <connections>
                                     <outlet property="rapperImage" destination="HU3-Ho-pxD" id="Noh-he-FfV"/>
@@ -148,6 +166,9 @@
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g5r-pQ-M31">
                                         <rect key="frame" x="161" y="280" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="saveNameSwitchState:" destination="KQF-gU-XwL" eventType="valueChanged" id="gH1-cc-GAI"/>
+                                        </connections>
                                     </switch>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hpI-ms-tFI">
                                         <rect key="frame" x="161" y="142" width="51" height="31"/>
@@ -197,6 +218,10 @@
                         <outlet property="filterButtonFavorites" destination="U8F-Td-N72" id="6vx-Pi-9A4"/>
                         <outlet property="filterButtonPopular" destination="Pa0-wB-yAu" id="Za9-5o-Y0a"/>
                         <outlet property="menuView" destination="dLS-uk-W0S" id="6J9-Sl-3Ho"/>
+                        <outlet property="switchExplicit" destination="c6g-jF-1Qo" id="sqD-dl-AKl"/>
+                        <outlet property="switchMostPopular" destination="iln-Mj-YVb" id="aWB-ov-ay4"/>
+                        <outlet property="switchMyFavorites" destination="hpI-ms-tFI" id="cIr-1j-aHk"/>
+                        <outlet property="switchNames" destination="g5r-pQ-M31" id="aSF-n1-g3n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ego-ox-i5t" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -310,5 +335,6 @@
         <image name="icon-facebook" width="11" height="20"/>
         <image name="icon-twitter" width="22" height="18"/>
         <image name="ribbon" width="299" height="33"/>
+        <image name="shape-triangle" width="35" height="21"/>
     </resources>
 </document>

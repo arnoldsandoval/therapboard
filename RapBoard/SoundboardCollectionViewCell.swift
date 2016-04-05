@@ -10,5 +10,9 @@ import UIKit
 
 class SoundboardCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var rapperImage: UIImageView!
+    @IBOutlet weak var rapperHeadView: DesignableView!
     @IBOutlet weak var rapperName: UILabel!
+    @IBOutlet weak var rapperNameTip: UIView!
+
+
 }
